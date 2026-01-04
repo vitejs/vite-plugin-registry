@@ -11,9 +11,6 @@
     "lint": "oxlint --type-aware --type-check",
     "fmt": "oxfmt --write ."
   },
-  "dependencies": {
-    "oxc-minify": "^0.106.0"
-  },
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.82",
     "@oxc-node/cli": "^0.0.35",

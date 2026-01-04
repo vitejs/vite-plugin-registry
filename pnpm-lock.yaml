@@ -10,10 +10,6 @@ overrides:
 importers:
 
   .:
-    dependencies:
-      oxc-minify:
-        specifier: ^0.106.0
-        version: 0.106.0
     devDependencies:
       '@iconify-json/lucide':
         specifier: ^1.2.82
@@ -3406,6 +3402,7 @@ snapshots:
       '@oxc-minify/binding-win32-arm64-msvc': 0.106.0
       '@oxc-minify/binding-win32-ia32-msvc': 0.106.0
       '@oxc-minify/binding-win32-x64-msvc': 0.106.0
+    optional: true
 
   oxfmt@0.21.0:
     dependencies:
