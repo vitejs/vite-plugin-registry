@@ -1,18 +1,39 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/ras0q/crawl-ls/refs/heads/main/data/schema/metadata.json ",
-  "title": "Vite Plugin Registry Metadata",
-  "description": "Schema for custom plugin metadata hosted at the URL specified in the vite-plugin-registry field of package.json",
   "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1,
+      "description": "Schema version for forward compatibility"
+    },
+    "compatibility": {
+      "type": "object",
+      "properties": {
+        "vite": {
+          "$ref": "#/$defs/ToolCompatibilitySchema"
+        },
+        "rollup": {
+          "$ref": "#/$defs/ToolCompatibilitySchema"
+        },
+        "rolldown": {
+          "$ref": "#/$defs/ToolCompatibilitySchema"
+        }
+      },
+      "required": [],
+      "description": "Overall compatibility declarations"
+    }
+  },
   "required": ["schemaVersion"],
+  "description": "Schema for custom plugin metadata hosted at the URL specified in the vite-plugin-registry field of package.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "$defs": {
-    "toolCompatibility": {
+    "ToolCompatibilitySchema": {
       "oneOf": [
         {
           "type": "object",
-          "required": ["type", "versions"],
           "properties": {
-            "type": { "const": "compatible" },
+            "type": {
+              "const": "compatible"
+            },
             "versions": {
               "type": "string",
               "description": "Semver range of compatible versions"
@@ -22,45 +43,33 @@
               "description": "Optional note providing additional context about compatibility"
             }
           },
-          "additionalProperties": false
+          "required": ["type", "versions"]
         },
         {
           "type": "object",
-          "required": ["type", "reason"],
           "properties": {
-            "type": { "const": "incompatible" },
+            "type": {
+              "const": "incompatible"
+            },
             "reason": {
               "type": "string",
               "description": "Human-readable explanation of why the plugin is incompatible"
             }
           },
-          "additionalProperties": false
+          "required": ["type", "reason"]
         },
         {
           "type": "object",
-          "required": ["type"],
           "properties": {
-            "type": { "const": "unknown" }
+            "type": {
+              "const": "unknown"
+            }
           },
-          "additionalProperties": false
+          "required": ["type"]
         }
       ]
     }
   },
-  "properties": {
-    "schemaVersion": {
-      "type": "string",
-      "enum": ["1.0"],
-      "description": "Schema version for forward compatibility"
-    },
-    "compatibility": {
-      "type": "object",
-      "description": "Overall compatibility declarations",
-      "properties": {
-        "vite": { "$ref": "#/$defs/toolCompatibility" },
-        "rollup": { "$ref": "#/$defs/toolCompatibility" },
-        "rolldown": { "$ref": "#/$defs/toolCompatibility" }
-      }
-    }
-  }
+  "$id": "https://raw.githubusercontent.com/vitejs/vite-plugin-registry/refs/heads/main/data/schema/metadata.schema.json",
+  "title": "Vite Plugin Registry Metadata"
 }
