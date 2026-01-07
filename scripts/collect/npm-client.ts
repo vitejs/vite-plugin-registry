@@ -17,7 +17,7 @@ export class NpmClient {
     keyword: string,
     options: { maxResults?: number } = {},
   ): Promise<NpmSearchObject[]> {
-    const maxResults = options.maxResults ?? 2000
+    const maxResults = options.maxResults ?? Infinity
     const pageSize = 250 // npm max is 250
     const allResults: NpmSearchObject[] = []
 
