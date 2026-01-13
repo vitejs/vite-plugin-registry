@@ -11,7 +11,7 @@ const config = defineConfig<unknown>({
   head: [['link', { rel: 'icon', href: 'https://vite.dev/logo-without-border.svg' }]],
 
   themeConfig: {
-    variant: "vite",
+    variant: 'vite',
 
     footer: {
       copyright: `© 2026 VoidZero Inc. and Vite contributors.`,

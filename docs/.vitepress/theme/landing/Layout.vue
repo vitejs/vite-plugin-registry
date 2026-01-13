@@ -7,9 +7,5 @@ import Footer from '@components/oss/Footer.vue'
 <template>
   <Hero />
   <About />
-  <Footer
-    heading="Start building"
-    button-text="Browse Plugins"
-    button-link="/plugins/"
-  />
+  <Footer heading="Start building" button-text="Browse Plugins" button-link="/plugins/" />
 </template>
