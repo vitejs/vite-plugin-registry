@@ -1,30 +1,30 @@
 <script setup lang="ts">
-import type { RegistryPlugin } from '../../../plugins.data';
-import IconAlertTriangle from '~icons/lucide/alert-triangle';
-import IconInfo from '~icons/lucide/info';
-import IconX from '~icons/lucide/x';
+import type { RegistryPlugin } from '../../../plugins.data'
+import IconAlertTriangle from '~icons/lucide/alert-triangle'
+import IconInfo from '~icons/lucide/info'
+import IconX from '~icons/lucide/x'
 
 const props = defineProps<{
-  plugin: RegistryPlugin;
-}>();
+  plugin: RegistryPlugin
+}>()
 
 const dateFormatter = new Intl.DateTimeFormat('en-US', {
   year: 'numeric',
   month: 'short',
   day: 'numeric',
-});
+})
 
 const compactNumberFormatter = new Intl.NumberFormat('en-US', {
   notation: 'compact',
   maximumFractionDigits: 1,
-});
+})
 
 function formatDate(isoDate: string): string {
-  return dateFormatter.format(new Date(isoDate));
+  return dateFormatter.format(new Date(isoDate))
 }
 
 function formatDownloads(count: number): string {
-  return compactNumberFormatter.format(count);
+  return compactNumberFormatter.format(count)
 }
 </script>
 
