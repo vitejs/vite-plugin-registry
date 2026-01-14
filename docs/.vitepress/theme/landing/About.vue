@@ -16,8 +16,8 @@
         Plugin authors can provide enhanced metadata by adding a
         <code>vite-plugin-registry</code>
         field to their
-        <code>package.json</code>. See the
-        <a href="/guide/" class="underline">Guide</a> for details.
+        <code>package.json</code>. See the <a href="/guide/" class="underline">Guide</a> for
+        details.
       </p>
       <h3 class="text-white">Credits</h3>
       <p class="text-white">
