@@ -14,7 +14,7 @@
       <h3 class="text-white">For Plugin Authors</h3>
       <p class="text-white">
         Plugin authors can provide enhanced metadata by adding a
-        <code>vite-plugin-registry</code>
+        <code>compatiblePackages</code>
         field to their
         <code>package.json</code>. See the <a href="/guide/" class="underline">Guide</a> for
         details.

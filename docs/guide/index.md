@@ -9,7 +9,7 @@ To ensure your plugin appears correctly in the registry:
 1. **Add the correct keyword** (e.g. `vite-plugin`)
 2. **Declare peer dependencies** for tools you support
 3. **Follow naming conventions** for your plugin type
-4. **(Optional)** Add extended metadata via `vite-plugin-registry` field
+4. **(Optional)** Add extended metadata via `compatiblePackages` field
 
 ## Guide Sections
 

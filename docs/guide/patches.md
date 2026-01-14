@@ -1,9 +1,6 @@
 # Registry Patches
 
-For plugins that don't provide their own metadata, the registry maintainers can add patches. If you'd like to update information for your plugin, you can:
-
-1. Add the `vite-plugin-registry` field to your `package.json` (preferred)
-2. Submit a PR to add a patch file in the `data/patches/` directory
+For plugins that don't provide their own metadata, the registry maintainers can add patches.
 
 ::: warning
 
