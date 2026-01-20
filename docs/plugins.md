@@ -6,4 +6,6 @@ layout: page
 import PluginList from './.vitepress/theme/components/PluginList.vue'
 </script>
 
-<PluginList />
+<ClientOnly>
+  <PluginList />
+</ClientOnly>
