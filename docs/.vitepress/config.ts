@@ -2,13 +2,17 @@ import { defineConfig } from 'vitepress'
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 import Icons from 'unplugin-icons/vite'
 import { extendConfig } from '@voidzero-dev/vitepress-theme/config'
+import { generatePluginsApi } from './plugins-api'
 
 const config = defineConfig<unknown>({
   title: 'Vite Plugin Registry',
   description: 'Discover plugins for Vite, Rolldown, and Rollup',
   cleanUrls: true,
 
-  head: [['link', { rel: 'icon', href: 'https://vite.dev/logo-without-border.svg' }]],
+  head: [
+    ['link', { rel: 'icon', href: 'https://vite.dev/logo-without-border.svg' }],
+    ['link', { rel: 'prefetch', href: '/api/plugins.json', as: 'fetch' }],
+  ],
 
   themeConfig: {
     variant: 'vite',
@@ -49,7 +53,7 @@ const config = defineConfig<unknown>({
     },
   },
   vite: {
-    plugins: [groupIconVitePlugin(), Icons({ compiler: 'vue3' })],
+    plugins: [generatePluginsApi(), groupIconVitePlugin(), Icons({ compiler: 'vue3' })],
   },
 })
 
