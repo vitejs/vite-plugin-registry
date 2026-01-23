@@ -1,11 +1,27 @@
 <script setup lang="ts">
-import { computed, watch } from 'vue'
+import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 import { useUrlSearchParams } from '@vueuse/core'
 import * as semver from 'semver'
-import { data, type ToolCompatibility } from '../../../plugins.data'
+import { data, type RegistryPlugin, type ToolCompatibility } from '../../../plugins.data'
 import PluginCard from './PluginCard.vue'
 
 const PLUGINS_PER_PAGE = 100
+
+const allPlugins = ref<RegistryPlugin[]>([])
+
+async function fetchPlugins() {
+  const response = await fetch('/api/plugins.json')
+  const json = await response.json()
+  allPlugins.value = json.plugins
+}
+
+onMounted(() => {
+  fetchPlugins()
+  import.meta.hot?.on('plugins-updated', fetchPlugins)
+})
+onUnmounted(() => {
+  import.meta.hot?.off('plugins-updated', fetchPlugins)
+})
 
 const params = useUrlSearchParams('history', {
   initialValue: {
@@ -77,7 +93,7 @@ function isCompatibleWith(compat: ToolCompatibility, version: string): boolean {
 }
 
 const plugins = computed(() => {
-  let result = data.plugins
+  let result = allPlugins.value
   if (viteVersion.value) {
     result = result.filter((p) => isCompatibleWith(p.compatibility.vite, viteVersion.value))
   }
@@ -112,7 +128,7 @@ watch([searchQuery, viteVersion, rollupVersion, rolldownVersion], () => {
 })
 
 const stats = computed(() => {
-  const total = data.plugins.length
+  const total = allPlugins.value.length
   const filtered = plugins.value.length
   const start = (currentPage.value - 1) * PLUGINS_PER_PAGE + 1
   const end = Math.min(currentPage.value * PLUGINS_PER_PAGE, filtered)

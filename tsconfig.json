@@ -10,7 +10,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "types": ["unplugin-icons/types/vue"]
+    "types": ["vitepress/client", "unplugin-icons/types/vue"]
   },
   "include": ["scripts/**/*.ts", "docs/.vitepress/**/*.ts", "docs/.vitepress/**/*.vue"],
   "exclude": ["node_modules", "docs/.vitepress/dist", "docs/.vitepress/cache"]
