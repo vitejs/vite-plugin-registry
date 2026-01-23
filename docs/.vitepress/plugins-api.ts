@@ -94,7 +94,9 @@ interface PluginBadge {
   rolldown: string
 }
 
-function formatCompatibility(compat: RegistryPlugin['compatibility'][keyof RegistryPlugin['compatibility']]): string {
+function formatCompatibility(
+  compat: RegistryPlugin['compatibility'][keyof RegistryPlugin['compatibility']],
+): string {
   return compat.type === 'compatible' ? compat.versions : compat.type
 }
 
@@ -118,7 +120,10 @@ async function writePluginData() {
   }
 
   writeFileSync(join(OUTPUT_DIR, 'plugins.json'), JSON.stringify(data))
-  writeFileSync(join(OUTPUT_DIR, 'plugin-badges.json'), JSON.stringify(generateBadgesData(data.plugins)))
+  writeFileSync(
+    join(OUTPUT_DIR, 'plugin-badges.json'),
+    JSON.stringify(generateBadgesData(data.plugins)),
+  )
   console.log('[generate-plugins-api] Generated /api/plugins.json, /api/plugin-badges.json')
 }
 
