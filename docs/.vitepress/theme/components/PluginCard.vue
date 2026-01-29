@@ -12,13 +12,25 @@ const props = defineProps<{
 
 const officialPlugin = computed(() => {
   if (props.plugin.name.startsWith('@vitejs/')) {
-    return { type: 'vitejs', color: 'purple', tooltip: 'This plugin is an official plugin published by the Vite team' }
+    return {
+      type: 'vitejs',
+      color: 'purple',
+      tooltip: 'This plugin is an official plugin published by the Vite team',
+    }
   }
   if (props.plugin.name.startsWith('@rolldown/')) {
-    return { type: 'rolldown', color: 'orange', tooltip: 'This plugin is an official plugin published by the Rolldown team' }
+    return {
+      type: 'rolldown',
+      color: 'orange',
+      tooltip: 'This plugin is an official plugin published by the Rolldown team',
+    }
   }
   if (props.plugin.name.startsWith('@rollup/')) {
-    return { type: 'rollup', color: 'red', tooltip: 'This plugin is an official plugin published by the Rollup team' }
+    return {
+      type: 'rollup',
+      color: 'red',
+      tooltip: 'This plugin is an official plugin published by the Rollup team',
+    }
   }
   return null
 })
