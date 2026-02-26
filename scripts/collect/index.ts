@@ -120,7 +120,7 @@ function transformToRegistryPlugin(
     description: searchResult.package.description ?? '',
     keywords: searchResult.package.keywords ?? [],
     links: {
-      npm: searchResult.package.links.npm,
+      npm: searchResult.package.links.npm.replace('https://www.npmjs.com/', 'https://npmx.dev/'),
       repository: validateUrl(
         extractRepositoryUrl(versionData?.repository) ?? searchResult.package.links.repository,
       ),
