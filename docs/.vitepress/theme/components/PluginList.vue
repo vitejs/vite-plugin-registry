@@ -161,6 +161,14 @@ const visiblePages = computed(() => {
   return pages
 })
 
+const activeVersionFilterSet = computed(() => {
+  const filters: string[] = []
+  if (viteVersion.value) filters.push('vite')
+  if (rollupVersion.value) filters.push('rollup')
+  if (rolldownVersion.value) filters.push('rolldown')
+  return filters
+})
+
 const activeFilters = computed(() => {
   const filters: string[] = []
   if (viteVersion.value) filters.push(`Vite ${viteVersion.value}`)
@@ -256,7 +264,12 @@ const activeFilters = computed(() => {
     </div>
 
     <div v-if="paginatedPlugins.length > 0" class="plugin-grid">
-      <PluginCard v-for="plugin in paginatedPlugins" :key="plugin.name" :plugin="plugin" />
+      <PluginCard
+        v-for="plugin in paginatedPlugins"
+        :key="plugin.name"
+        :plugin="plugin"
+        :filtered-tools="activeVersionFilterSet"
+      />
     </div>
 
     <p v-else class="no-results">No plugins found.</p>

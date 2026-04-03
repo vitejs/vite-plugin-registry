@@ -6,9 +6,17 @@ import IconX from '~icons/lucide/x'
 import IconBadgeCheck from '~icons/lucide/badge-check'
 import { computed } from 'vue'
 
+const DIMMED_OPACITY = 0.8
+
 const props = defineProps<{
   plugin: RegistryPlugin
+  filteredTools?: string[]
 }>()
+
+function isToolDimmed(tool: string): boolean {
+  if (!props.filteredTools || props.filteredTools.length === 0) return false
+  return !props.filteredTools.includes(tool)
+}
 
 const officialPlugin = computed(() => {
   if (props.plugin.name.startsWith('@vitejs/')) {
@@ -79,7 +87,12 @@ function formatDownloads(count: number): string {
     <p class="plugin-description">{{ plugin.description || 'No description available.' }}</p>
 
     <div class="plugin-compatibility">
-      <div v-for="(compat, tool) in plugin.compatibility" :key="tool" class="compat-tool">
+      <div
+        v-for="(compat, tool) in plugin.compatibility"
+        :key="tool"
+        class="compat-tool"
+        :style="isToolDimmed(tool) ? { opacity: DIMMED_OPACITY } : undefined"
+      >
         <span
           v-if="compat.type === 'compatible'"
           class="compat-item"
