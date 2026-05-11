@@ -1,5 +1,5 @@
-onlyBuiltDependencies:
-  - esbuild
+allowBuilds:
+  vue-demi: false
 
 overrides:
   vite: ^8.0.11
