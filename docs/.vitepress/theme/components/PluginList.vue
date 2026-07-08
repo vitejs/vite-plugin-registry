@@ -30,6 +30,7 @@ const params = useUrlSearchParams('history', {
     rollup: '',
     rolldown: '',
     page: '1',
+    sort: 'popularity',
   },
 })
 
@@ -68,6 +69,13 @@ const currentPage = computed({
   },
   set: (v) => {
     params.page = String(v)
+  },
+})
+
+const sortBy = computed({
+  get: () => (params.sort === 'updated' ? 'updated' : 'popularity'),
+  set: (v) => {
+    params.sort = v
   },
 })
 
@@ -112,7 +120,12 @@ const plugins = computed(() => {
         p.keywords.some((k) => k.toLowerCase().includes(query)),
     )
   }
-  return result.sort((a, b) => (b.weeklyDownloads ?? 0) - (a.weeklyDownloads ?? 0))
+  if (sortBy.value === 'updated') {
+    result.sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
+  } else {
+    result.sort((a, b) => (b.weeklyDownloads ?? 0) - (a.weeklyDownloads ?? 0))
+  }
+  return result
 })
 
 const totalPages = computed(() => Math.ceil(plugins.value.length / PLUGINS_PER_PAGE))
@@ -123,7 +136,7 @@ const paginatedPlugins = computed(() => {
   return plugins.value.slice(start, end)
 })
 
-watch([searchQuery, viteVersion, rollupVersion, rolldownVersion], () => {
+watch([searchQuery, viteVersion, rollupVersion, rolldownVersion, sortBy], () => {
   currentPage.value = 1
 })
 
@@ -248,11 +261,30 @@ const activeFilters = computed(() => {
     </div>
 
     <div class="plugin-stats">
-      <span v-if="stats.filtered > 0">
-        Showing {{ stats.start }}-{{ stats.end }} of {{ stats.filtered }} plugins
-      </span>
-      <span v-else>No plugins found</span>
-      <span v-if="activeFilters.length">({{ activeFilters.join(', ') }} compatible)</span>
+      <div class="stats-info">
+        <span v-if="stats.filtered > 0">
+          Showing {{ stats.start }}-{{ stats.end }} of {{ stats.filtered }} plugins
+        </span>
+        <span v-else>No plugins found</span>
+        <span v-if="activeFilters.length">({{ activeFilters.join(', ') }} compatible)</span>
+      </div>
+      <div class="sort-group">
+        <span class="sort-label">Sort by:</span>
+        <button
+          class="sort-btn"
+          :class="{ active: sortBy === 'popularity' }"
+          @click="sortBy = 'popularity'"
+        >
+          Popularity
+        </button>
+        <button
+          class="sort-btn"
+          :class="{ active: sortBy === 'updated' }"
+          @click="sortBy = 'updated'"
+        >
+          Last Updated
+        </button>
+      </div>
     </div>
 
     <div v-if="paginatedPlugins.length > 0" class="plugin-grid">
@@ -396,12 +428,61 @@ const activeFilters = computed(() => {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   margin-bottom: 1rem;
   padding: 0.75rem;
   background: var(--vp-c-bg-soft);
   border-radius: 8px;
   font-size: 0.875rem;
   color: var(--vp-c-text-2);
+}
+
+.stats-info {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.sort-group {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.sort-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--vp-c-text-3);
+  margin-right: 0.25rem;
+}
+
+.sort-btn {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 6px;
+  cursor: pointer;
+  transition:
+    border-color 0.25s,
+    background-color 0.25s,
+    color 0.25s;
+  white-space: nowrap;
+}
+
+.sort-btn:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-text-1);
+}
+
+.sort-btn.active {
+  background: var(--vp-c-brand-soft);
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
 }
 
 .plugin-grid {
