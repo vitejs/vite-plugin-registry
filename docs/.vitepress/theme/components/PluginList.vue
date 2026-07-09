@@ -121,7 +121,7 @@ const plugins = computed(() => {
     )
   }
   if (sortBy.value === 'updated') {
-    result.sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
+    result.sort((a, b) => Date.parse(b.updatedAt) - Date.parse(a.updatedAt))
   } else {
     result.sort((a, b) => (b.weeklyDownloads ?? 0) - (a.weeklyDownloads ?? 0))
   }
