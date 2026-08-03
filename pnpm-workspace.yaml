@@ -3,6 +3,3 @@ allowBuilds:
 
 overrides:
   vite: ^8.2.0
-
-hoistPattern:
-  - '@vue/compiler-sfc' # unplugin-icons
