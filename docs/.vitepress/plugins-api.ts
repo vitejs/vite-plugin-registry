@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import type { PluginPatch, RegistryPlugin } from '../plugins.data'
+import type { PluginPatch, RegistryPlugin } from '../plugins.data.ts'
 import type { Plugin } from 'vitepress'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))

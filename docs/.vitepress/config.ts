@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 import Icons from 'unplugin-icons/vite'
 import { extendConfig } from '@voidzero-dev/vitepress-theme/config'
-import { generatePluginsApi } from './plugins-api'
+import { generatePluginsApi } from './plugins-api.ts'
 
 const config = defineConfig<unknown>({
   title: 'Vite Plugin Registry',

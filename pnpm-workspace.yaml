@@ -1,8 +1,5 @@
 allowBuilds:
   vue-demi: false
 
-minimumReleaseAgeExclude:
-  - '@voidzero-dev/vitepress-theme@5.0.2'
-
 overrides:
-  vite: ^8.1.5
+  vite: ^8.2.0
