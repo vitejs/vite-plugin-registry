@@ -13,7 +13,7 @@
     "fmt": "oxfmt --write ."
   },
   "devDependencies": {
-    "@iconify-json/lucide": "^1.2.125",
+    "@iconify-json/lucide": "^1.2.127",
     "@oxc-node/cli": "^0.1.0",
     "@oxc-node/core": "^0.1.0",
     "@types/node": "^24.13.3",
@@ -23,8 +23,8 @@
     "@vueuse/core": "^14.4.0",
     "floating-vue": "^5.2.2",
     "minisearch": "^7.2.0",
-    "oxfmt": "^0.64.0",
-    "oxlint": "^1.79.0",
+    "oxfmt": "^0.65.0",
+    "oxlint": "^1.80.0",
     "oxlint-tsgolint": "^7.0.2001",
     "p-queue": "^9.3.3",
     "semver": "^7.8.5",
@@ -33,7 +33,7 @@
     "valibot": "^1.4.2",
     "vitepress": "2.0.0-alpha.19",
     "vitepress-plugin-group-icons": "^1.7.6",
-    "vue": "^3.5.41"
+    "vue": "^3.5.42"
   },
-  "packageManager": "pnpm@11.22.0"
+  "packageManager": "pnpm@11.24.0"
 }
