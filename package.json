@@ -13,27 +13,27 @@
     "fmt": "oxfmt --write ."
   },
   "devDependencies": {
-    "@iconify-json/lucide": "^1.2.129",
-    "@oxc-node/cli": "^0.1.0",
-    "@oxc-node/core": "^0.1.0",
-    "@types/node": "^24.13.3",
+    "@iconify-json/lucide": "^1.2.132",
+    "@oxc-node/cli": "^0.1.2",
+    "@oxc-node/core": "^0.1.2",
+    "@types/node": "^24.13.4",
     "@types/semver": "^7.8.0",
-    "@valibot/to-json-schema": "^1.7.1",
-    "@voidzero-dev/vitepress-theme": "^5.0.6",
+    "@valibot/to-json-schema": "^1.8.0",
+    "@voidzero-dev/vitepress-theme": "^5.0.7",
     "@vueuse/core": "^14.4.0",
-    "floating-vue": "^5.2.2",
+    "floating-vue": "^5.4.0",
     "minisearch": "^7.2.0",
-    "oxfmt": "^0.66.0",
-    "oxlint": "^1.81.0",
+    "oxfmt": "^0.68.0",
+    "oxlint": "^1.83.0",
     "oxlint-tsgolint": "^7.0.2001",
     "p-queue": "^9.3.3",
     "semver": "^7.8.5",
     "typescript": "^7.0.2",
     "unplugin-icons": "^24.0.0",
-    "valibot": "^1.4.2",
+    "valibot": "^1.5.0",
     "vitepress": "2.0.0-alpha.20",
     "vitepress-plugin-group-icons": "^1.7.6",
     "vue": "^3.5.42"
   },
-  "packageManager": "pnpm@12.3.4"
+  "packageManager": "pnpm@12.4.1"
 }
