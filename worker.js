@@ -4,6 +4,10 @@ const badges = {
   vite: { label: 'Vite', logo: 'vite' },
 }
 
+const defaultCacheableHeader = {
+  'Cache-Control': 'public, max-age=3600',
+}
+
 const packageNamePattern = /^(?:@[a-z0-9][a-z0-9._-]*\/)?[a-z0-9][a-z0-9._-]*$/
 
 export default {
@@ -11,11 +15,29 @@ export default {
     const url = new URL(request.url)
     if (url.pathname === '/api/badges') {
       const packageName = url.searchParams.get('package')
-      const tool = url.searchParams.get('tool')
-      const badge = Object.hasOwn(badges, tool) ? badges[tool] : undefined
+      if (!packageName) {
+        return new Response('`package` query is required', {
+          status: 400,
+          headers: defaultCacheableHeader,
+        })
+      }
+      if (!packageNamePattern.test(packageName)) {
+        return new Response('Invalid package name', {
+          status: 400,
+          headers: defaultCacheableHeader,
+        })
+      }
 
-      if (!packageName || !packageNamePattern.test(packageName) || !badge) {
-        return new Response('Badge not found', { status: 404 })
+      const tool = url.searchParams.get('tool')
+      const badge = tool ? badges[tool] : undefined
+      if (!tool) {
+        return new Response('`tool` query is required', {
+          status: 400,
+          headers: defaultCacheableHeader,
+        })
+      }
+      if (!badge) {
+        return new Response('Unsupported tool', { status: 400, headers: defaultCacheableHeader })
       }
 
       const target = new URL('https://img.shields.io/badge/dynamic/json')
@@ -27,7 +49,10 @@ export default {
         color: '9135FF',
       }).toString()
 
-      return Response.redirect(target, 302)
+      return new Response(null, {
+        status: 302,
+        headers: { Location: target.toString(), ...defaultCacheableHeader },
+      })
     }
 
     return env.ASSETS.fetch(request)
