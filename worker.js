@@ -43,7 +43,7 @@ export default {
       const target = new URL('https://img.shields.io/badge/dynamic/json')
       target.search = new URLSearchParams({
         url: 'https://registry.vite.dev/api/plugin-badges.json',
-        query: '$[`' + packageName + '`].' + tool,
+        query: '$[`' + packageName + '].' + tool,
         logo: badge.logo,
         label: badge.label,
         color: '9135FF',
