@@ -4,7 +4,7 @@
   "main": "worker.js",
   "compatibility_date": "2026-09-28",
   "build": {
-    "command": "pnpm run build",
+    "command": "pnpm run build:cf",
   },
   "assets": {
     "directory": "./docs/.vitepress/dist",

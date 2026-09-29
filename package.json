@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
+    "build:cf": "pnpm run build && rm docs/.vitepress/dist/_redirect",
     "preview": "vitepress preview docs",
     "collect": "oxnode scripts/collect/index.ts",
     "generate-schema": "oxnode scripts/generate-schema.ts",
