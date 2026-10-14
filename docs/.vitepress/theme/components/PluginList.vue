@@ -62,6 +62,14 @@ const rolldownVersion = computed({
   },
 })
 
+const compatibilityTools = computed<(keyof RegistryPlugin['compatibility'])[]>(() => {
+  const tools: (keyof RegistryPlugin['compatibility'])[] = []
+  if (viteVersion.value) tools.push('vite')
+  if (rollupVersion.value) tools.push('rollup')
+  if (rolldownVersion.value) tools.push('rolldown')
+  return tools.length > 0 ? tools : ['vite', 'rollup', 'rolldown']
+})
+
 const currentPage = computed({
   get: () => {
     const page = parseInt(params.page, 10)
@@ -288,7 +296,12 @@ const activeFilters = computed(() => {
     </div>
 
     <div v-if="paginatedPlugins.length > 0" class="plugin-grid">
-      <PluginCard v-for="plugin in paginatedPlugins" :key="plugin.name" :plugin="plugin" />
+      <PluginCard
+        v-for="plugin in paginatedPlugins"
+        :key="plugin.name"
+        :plugin="plugin"
+        :compatibility-tools="compatibilityTools"
+      />
     </div>
 
     <p v-else class="no-results">No plugins found.</p>

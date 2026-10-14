@@ -8,7 +8,12 @@ import { computed } from 'vue'
 
 const props = defineProps<{
   plugin: RegistryPlugin
+  compatibilityTools: (keyof RegistryPlugin['compatibility'])[]
 }>()
+
+const displayedCompatibility = computed(() =>
+  props.compatibilityTools.map((tool) => ({ tool, compat: props.plugin.compatibility[tool] })),
+)
 
 const officialPlugin = computed(() => {
   if (props.plugin.name.startsWith('@vitejs/')) {
@@ -79,7 +84,7 @@ function formatDownloads(count: number): string {
     <p class="plugin-description">{{ plugin.description || 'No description available.' }}</p>
 
     <div class="plugin-compatibility">
-      <div v-for="(compat, tool) in plugin.compatibility" :key="tool" class="compat-tool">
+      <div v-for="{ tool, compat } in displayedCompatibility" :key="tool" class="compat-tool">
         <span
           v-if="compat.type === 'compatible'"
           class="compat-item"
