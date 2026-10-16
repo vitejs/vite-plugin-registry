@@ -404,7 +404,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 12
+    "weeklyDownloads": 3
   },
   {
     "name": "@94ai/unplugin-vue-define-options",
@@ -531,7 +531,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 56
+    "weeklyDownloads": 82
   },
   {
     "name": "@aaronmh/rollup-plugin-rebase",
@@ -654,7 +654,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 3
   },
   {
     "name": "@accup/vite-plugin-hogen",
@@ -769,6 +769,44 @@
       }
     },
     "weeklyDownloads": 2
+  },
+  {
+    "name": "@acowale/ads-boneyard",
+    "description": "Pixel-perfect skeleton loading screens. Wrap your component in <Skeleton> and boneyard snapshots the real DOM layout — no manual descriptors, no configuration.",
+    "keywords": [
+      "skeleton",
+      "skeleton-screen",
+      "loading",
+      "placeholder",
+      "react",
+      "react-native",
+      "vue",
+      "preact",
+      "angular",
+      "vite",
+      "vite-plugin",
+      "zero-layout-shift"
+    ],
+    "links": {
+      "npm": "https://npmx.dev/package/@acowale/ads-boneyard",
+      "repository": "https://gitlab.com/acowale-engineering/ads/ads-boneyard",
+      "homepage": "https://gitlab.com/acowale-engineering/ads/ads-boneyard"
+    },
+    "version": "1.10.1",
+    "updatedAt": "2026-10-15T12:31:14.356Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=5"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 0
   },
   {
     "name": "@acusti/vite-plugin-react-compiler",
@@ -912,7 +950,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 6
   },
   {
     "name": "@adesso-se/vite-plugin-legacy-js-concat",
@@ -1357,8 +1395,8 @@
       "repository": "https://github.com/afterpack-dev/afterpack",
       "homepage": "https://www.afterpack.dev/docs/frameworks/rollup"
     },
-    "version": "0.2.4",
-    "updatedAt": "2026-10-14T15:56:32.089Z",
+    "version": "0.2.5",
+    "updatedAt": "2026-10-16T02:54:51.769Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -1394,8 +1432,8 @@
       "repository": "https://github.com/afterpack-dev/afterpack",
       "homepage": "https://www.afterpack.dev/docs/frameworks/svelte"
     },
-    "version": "0.2.4",
-    "updatedAt": "2026-10-14T15:55:57.164Z",
+    "version": "0.2.5",
+    "updatedAt": "2026-10-16T02:56:01.618Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -1431,8 +1469,8 @@
       "repository": "https://github.com/afterpack-dev/afterpack",
       "homepage": "https://www.afterpack.dev/docs/frameworks/sveltekit"
     },
-    "version": "0.2.4",
-    "updatedAt": "2026-10-14T15:56:22.554Z",
+    "version": "0.2.5",
+    "updatedAt": "2026-10-16T02:54:25.242Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -1467,8 +1505,8 @@
       "repository": "https://github.com/afterpack-dev/afterpack",
       "homepage": "https://www.afterpack.dev/docs/frameworks/vite"
     },
-    "version": "0.2.4",
-    "updatedAt": "2026-10-14T16:00:27.187Z",
+    "version": "0.2.5",
+    "updatedAt": "2026-10-16T02:53:39.776Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -1504,8 +1542,8 @@
       "repository": "https://github.com/afterpack-dev/afterpack",
       "homepage": "https://www.afterpack.dev/docs/frameworks/vue"
     },
-    "version": "0.2.4",
-    "updatedAt": "2026-10-14T15:57:51.071Z",
+    "version": "0.2.5",
+    "updatedAt": "2026-10-16T02:54:52.724Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -1702,7 +1740,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 18
+    "weeklyDownloads": 31
   },
   {
     "name": "@agentmarkup/vite",
@@ -2032,7 +2070,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 1
   },
   {
     "name": "@aifeed/frameworks",
@@ -2094,7 +2132,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 26
+    "weeklyDownloads": 32
   },
   {
     "name": "@ainiteam/vite-plugin-vue3-extend",
@@ -2219,7 +2257,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 105
+    "weeklyDownloads": 185
   },
   {
     "name": "@akagiyui/vite-plugin-git-revision",
@@ -2284,7 +2322,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 11
+    "weeklyDownloads": 14
   },
   {
     "name": "@akfm/vite-plugin-storybook-mock-server-functions",
@@ -2461,7 +2499,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 4
   },
   {
     "name": "@alexander.k/vite-plugin-for-shopify",
@@ -2910,7 +2948,7 @@
         "versions": "^1.0.0"
       }
     },
-    "weeklyDownloads": 68
+    "weeklyDownloads": 155
   },
   {
     "name": "@amojs.dev/vite",
@@ -3232,8 +3270,8 @@
       "repository": "https://github.com/codecaaron/animus",
       "homepage": "https://github.com/codecaaron/animus/tree/main/packages/layergate#readme"
     },
-    "version": "0.1.38",
-    "updatedAt": "2026-10-15T02:57:41.627Z",
+    "version": "0.1.46",
+    "updatedAt": "2026-10-16T06:23:05.554Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -3267,8 +3305,8 @@
       "repository": "https://github.com/codecaaron/animus",
       "homepage": "https://github.com/codecaaron/animus/tree/main/packages/unplugin#readme"
     },
-    "version": "0.1.38",
-    "updatedAt": "2026-10-15T02:57:47.386Z",
+    "version": "0.1.46",
+    "updatedAt": "2026-10-16T06:23:29.479Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -3299,8 +3337,8 @@
       "repository": "https://github.com/codecaaron/animus",
       "homepage": "https://github.com/codecaaron/animus/tree/main/packages/vite-plugin#readme"
     },
-    "version": "0.1.38",
-    "updatedAt": "2026-10-15T02:57:27.756Z",
+    "version": "0.1.46",
+    "updatedAt": "2026-10-16T06:28:25.798Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -3563,7 +3601,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 203
+    "weeklyDownloads": 8
   },
   {
     "name": "@any-tdf/vite-plugin-svg-symbol",
@@ -3597,7 +3635,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 241
+    "weeklyDownloads": 25
   },
   {
     "name": "@anyone-dev/vite-svg-loader",
@@ -3859,7 +3897,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 382
+    "weeklyDownloads": 1041
   },
   {
     "name": "@app-config/vite",
@@ -3886,7 +3924,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 409
+    "weeklyDownloads": 1094
   },
   {
     "name": "@appjamstudio/vite-plugin-icon-forge",
@@ -4070,7 +4108,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 252
+    "weeklyDownloads": 255
   },
   {
     "name": "@aredridel/rollup-plugin-notify",
@@ -4534,7 +4572,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 3
   },
   {
     "name": "@asolopovas/vite-plugin-wp",
@@ -4746,7 +4784,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 384
+    "weeklyDownloads": 212
   },
   {
     "name": "@ata-project/unplugin",
@@ -5191,7 +5229,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 1
   },
   {
     "name": "@aussieljk/uight",
@@ -5224,7 +5262,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 18
+    "weeklyDownloads": 10
   },
   {
     "name": "@author.io/rollup-plugin-wcbuilder",
@@ -5515,8 +5553,8 @@
     "links": {
       "npm": "https://npmx.dev/package/@ayu-sh-kr/dota-ssr"
     },
-    "version": "0.2.1",
-    "updatedAt": "2026-10-14T10:50:07.823Z",
+    "version": "0.2.3",
+    "updatedAt": "2026-10-15T17:13:54.849Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -5653,7 +5691,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 103
+    "weeklyDownloads": 9
   },
   {
     "name": "@b2network/crxjs-vite-plugin",
@@ -5704,8 +5742,8 @@
       "npm": "https://npmx.dev/package/@babelize/vite",
       "homepage": "https://docs.babelize.co/sdk"
     },
-    "version": "0.0.6",
-    "updatedAt": "2026-10-12T09:35:16.693Z",
+    "version": "0.0.8",
+    "updatedAt": "2026-10-15T21:29:00.716Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -5718,7 +5756,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 158
+    "weeklyDownloads": 174
   },
   {
     "name": "@backrunner/rollup-plugin-string",
@@ -6165,8 +6203,8 @@
       "repository": "https://github.com/piconic-ai/barefootjs",
       "homepage": "https://github.com/piconic-ai/barefootjs#readme"
     },
-    "version": "0.39.5",
-    "updatedAt": "2026-10-10T13:03:14.451Z",
+    "version": "0.39.6",
+    "updatedAt": "2026-10-15T23:13:21.461Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -6179,7 +6217,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1331
+    "weeklyDownloads": 830
   },
   {
     "name": "@basirah/vite-pwa-bootstrap",
@@ -6549,7 +6587,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 147
+    "weeklyDownloads": 121
   },
   {
     "name": "@beekeeperstudio/vite-plugin",
@@ -6884,8 +6922,8 @@
       "repository": "https://github.com/binarynoir/vite-plugin-image-fallback",
       "homepage": "https://github.com/binarynoir/vite-plugin-image-fallback#readme"
     },
-    "version": "0.4.0",
-    "updatedAt": "2026-10-15T00:03:27.145Z",
+    "version": "0.4.1",
+    "updatedAt": "2026-10-15T16:42:12.880Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -6917,8 +6955,8 @@
       "repository": "https://github.com/binarynoir/vite-plugin-optimize-images",
       "homepage": "https://github.com/binarynoir/vite-plugin-optimize-images#readme"
     },
-    "version": "0.1.9",
-    "updatedAt": "2026-10-14T17:53:54.940Z",
+    "version": "0.1.10",
+    "updatedAt": "2026-10-15T16:43:44.685Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -6951,8 +6989,8 @@
       "repository": "https://github.com/binarynoir/vitepress-downloads",
       "homepage": "https://github.com/binarynoir/vitepress-downloads#readme"
     },
-    "version": "0.1.3",
-    "updatedAt": "2026-10-14T17:53:07.074Z",
+    "version": "0.1.4",
+    "updatedAt": "2026-10-15T16:42:48.013Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -6985,8 +7023,8 @@
       "repository": "https://github.com/binarynoir/vitepress-exclude",
       "homepage": "https://github.com/binarynoir/vitepress-exclude#readme"
     },
-    "version": "0.1.1",
-    "updatedAt": "2026-10-14T17:50:14.033Z",
+    "version": "0.1.2",
+    "updatedAt": "2026-10-15T16:43:48.666Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -7033,7 +7071,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 0
   },
   {
     "name": "@bkuri/rollup-plugin-coffeescript",
@@ -7189,7 +7227,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 2
   },
   {
     "name": "@blinkx/editor-vite",
@@ -7337,7 +7375,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 53
+    "weeklyDownloads": 272
   },
   {
     "name": "@bluesyoung/unplugin-json-conf",
@@ -7459,7 +7497,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 228
+    "weeklyDownloads": 32
   },
   {
     "name": "@borela-tech/vite-plugin-multiline-tailwindcss",
@@ -7589,7 +7627,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 20
+    "weeklyDownloads": 5
   },
   {
     "name": "@brainfish-ai/wayfinder-vite-plugin",
@@ -7617,7 +7655,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 0
   },
   {
     "name": "@braiwet/rollup-plugin-svelte-static-html",
@@ -7671,8 +7709,8 @@
       "repository": "https://github.com/Chandraprakash-Darji/brick",
       "homepage": "https://github.com/Chandraprakash-Darji/brick#readme"
     },
-    "version": "0.4.2",
-    "updatedAt": "2026-10-14T12:36:29.670Z",
+    "version": "0.7.4",
+    "updatedAt": "2026-10-16T05:49:50.994Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -8714,7 +8752,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 19
+    "weeklyDownloads": 17
   },
   {
     "name": "@capyseo/sveltekit",
@@ -9453,7 +9491,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 1
   },
   {
     "name": "@chipunderblade/vite-plugin-mpa",
@@ -9624,8 +9662,8 @@
       "repository": "https://github.com/sigilco/chttp",
       "homepage": "https://github.com/sigilco/chttp#readme"
     },
-    "version": "0.2.0",
-    "updatedAt": "2026-10-14T21:54:01.887Z",
+    "version": "0.3.0",
+    "updatedAt": "2026-10-15T23:58:13.189Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -9815,7 +9853,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 1
   },
   {
     "name": "@cicctencent/vite-plugin-circular-dependency",
@@ -10059,7 +10097,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 9
+    "weeklyDownloads": 4
   },
   {
     "name": "@clicktocode/react",
@@ -10090,7 +10128,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 10
+    "weeklyDownloads": 5
   },
   {
     "name": "@clicktocode/svelte",
@@ -10121,7 +10159,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 4
   },
   {
     "name": "@clicktocode/vue",
@@ -10153,7 +10191,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 11
+    "weeklyDownloads": 9
   },
   {
     "name": "@cloflin/docpilot",
@@ -10530,7 +10568,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 12
+    "weeklyDownloads": 4
   },
   {
     "name": "@code-hud/hud-javascript-bundlers-plugins",
@@ -10619,7 +10657,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 205
+    "weeklyDownloads": 12
   },
   {
     "name": "@codegeekdevs/vite-encrypt-file",
@@ -11066,7 +11104,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 35
   },
   {
     "name": "@conciv/plugin",
@@ -11099,7 +11137,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 20
   },
   {
     "name": "@confkit/vite",
@@ -11395,8 +11433,8 @@
       "repository": "https://github.com/Cratis/Arc",
       "homepage": "https://www.cratis.io/arc/"
     },
-    "version": "22.101.0",
-    "updatedAt": "2026-10-15T02:35:08.207Z",
+    "version": "22.107.1",
+    "updatedAt": "2026-10-16T04:48:52.181Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -11643,7 +11681,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 2
   },
   {
     "name": "@csszyx/unplugin",
@@ -11861,7 +11899,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 1
   },
   {
     "name": "@cyberalien/rollup-plugin-typescript2",
@@ -12439,7 +12477,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 0
+    "weeklyDownloads": 496
   },
   {
     "name": "@darcas/rollup-plugin-license-json",
@@ -12581,7 +12619,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1694
+    "weeklyDownloads": 1041
   },
   {
     "name": "@datadog/esbuild-plugin",
@@ -12925,8 +12963,8 @@
       "repository": "https://github.com/db-ux-design-system/core-web",
       "homepage": "https://github.com/db-ux-design-system/core-web#readme"
     },
-    "version": "5.7.1",
-    "updatedAt": "2026-10-12T06:17:26.785Z",
+    "version": "6.0.0",
+    "updatedAt": "2026-10-15T11:48:20.667Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -12939,7 +12977,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 755
+    "weeklyDownloads": 858
   },
   {
     "name": "@dblechoc/vite-plugin-relay",
@@ -13373,7 +13411,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 12
+    "weeklyDownloads": 73
   },
   {
     "name": "@deniz-blue/vite-plugins",
@@ -13506,7 +13544,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 69
+    "weeklyDownloads": 24
   },
   {
     "name": "@denkwerk/unplugin-favicon-generator",
@@ -13559,7 +13597,7 @@
         "versions": ">=1.0.0"
       }
     },
-    "weeklyDownloads": 52
+    "weeklyDownloads": 16
   },
   {
     "name": "@dennation/typebook",
@@ -13621,7 +13659,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 2
   },
   {
     "name": "@depup/cloudflare__vite-plugin",
@@ -13910,7 +13948,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 5
   },
   {
     "name": "@depup/vitejs__plugin-react",
@@ -14301,7 +14339,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 1
   },
   {
     "name": "@devwizard/laravel-localizer-react",
@@ -14749,8 +14787,8 @@
       "repository": "https://github.com/display-design-studio/vite-plugin-shopify-theme",
       "homepage": "https://display-design-studio.github.io/vite-plugin-shopify-theme/"
     },
-    "version": "0.5.1",
-    "updatedAt": "2026-10-13T16:01:16.914Z",
+    "version": "0.5.2",
+    "updatedAt": "2026-10-15T19:34:55.674Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -14763,7 +14801,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 179
+    "weeklyDownloads": 181
   },
   {
     "name": "@divriots/vite-plugin-dts",
@@ -15329,7 +15367,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 115
+    "weeklyDownloads": 106
   },
   {
     "name": "@dotrino/prerender",
@@ -15710,7 +15748,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 3
   },
   {
     "name": "@dvcol/import-map-plugin",
@@ -16886,7 +16924,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 28
+    "weeklyDownloads": 30
   },
   {
     "name": "@elonehoo/starter-unplugin",
@@ -16965,8 +17003,8 @@
       "repository": "https://github.com/ember-intl/ember-intl",
       "homepage": "https://ember-intl.github.io/ember-intl/"
     },
-    "version": "2.2.1",
-    "updatedAt": "2026-10-08T10:24:27.763Z",
+    "version": "2.2.2",
+    "updatedAt": "2026-10-15T09:19:17.014Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -17331,6 +17369,39 @@
     "weeklyDownloads": 42
   },
   {
+    "name": "@ericrius1/weft",
+    "description": "A thin WebGPU kit: a frame is an explicit, ordered list of passes over named resources, and WGSL is the single definition of the data. With a Vite plugin for typed, hot-reloading .wgsl imports.",
+    "keywords": [
+      "webgpu",
+      "wgsl",
+      "graphics",
+      "render-graph",
+      "gpu",
+      "vite-plugin",
+      "shaders"
+    ],
+    "links": {
+      "npm": "https://npmx.dev/package/@ericrius1/weft",
+      "repository": "https://github.com/ericrius1/weft",
+      "homepage": "https://github.com/ericrius1/weft#readme"
+    },
+    "version": "0.1.0",
+    "updatedAt": "2026-10-15T14:34:43.780Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=5"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 0
+  },
+  {
     "name": "@erquhart/rollup-plugin-node-builtins",
     "description": "use node builtins in browser with rollup",
     "keywords": [
@@ -17448,7 +17519,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 292
+    "weeklyDownloads": 59
   },
   {
     "name": "@ethereal-ui/vite-plugin-react-preview",
@@ -17641,7 +17712,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 3
   },
   {
     "name": "@evolonix/react-router-next",
@@ -17762,7 +17833,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 0
+    "weeklyDownloads": 456
   },
   {
     "name": "@exodra/vite-plugin",
@@ -18012,7 +18083,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 13
+    "weeklyDownloads": 3
   },
   {
     "name": "@fe-fast/code-sweeper",
@@ -18270,8 +18341,8 @@
       "repository": "https://github.com/efureev/granum",
       "homepage": "https://github.com/efureev/granum#readme"
     },
-    "version": "1.0.2",
-    "updatedAt": "2026-09-29T12:31:07.618Z",
+    "version": "2.0.0",
+    "updatedAt": "2026-10-15T16:35:34.593Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -18553,8 +18624,8 @@
       "repository": "https://github.com/wemuda/fixback",
       "homepage": "https://docs.fixback.dev/sdk/sourcemaps"
     },
-    "version": "0.2.10",
-    "updatedAt": "2026-10-02T14:49:02.548Z",
+    "version": "0.2.11",
+    "updatedAt": "2026-10-15T09:43:03.124Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -18567,7 +18638,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 384
+    "weeklyDownloads": 67
   },
   {
     "name": "@fizzlab.io/vite-plugin-shopify",
@@ -19617,7 +19688,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 1
   },
   {
     "name": "@fraxel/vite-plugin",
@@ -19890,8 +19961,8 @@
       "repository": "https://github.com/chenmingye/fulgurjs-federation",
       "homepage": "https://github.com/chenmingye/fulgurjs-federation#readme"
     },
-    "version": "6.10.0",
-    "updatedAt": "2026-10-15T06:13:48.396Z",
+    "version": "6.11.2",
+    "updatedAt": "2026-10-16T00:56:15.133Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -20301,7 +20372,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 19
+    "weeklyDownloads": 195
   },
   {
     "name": "@gamedev-js/rollup-plugin-node-resolve",
@@ -20526,7 +20597,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 21
+    "weeklyDownloads": 20
   },
   {
     "name": "@gcwioro/vite-plugin-vue-i18n-typescript",
@@ -21889,7 +21960,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 34
+    "weeklyDownloads": 4
   },
   {
     "name": "@gushogg-blake/rollup-plugin-copy-watch",
@@ -22045,7 +22116,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 18
+    "weeklyDownloads": 35
   },
   {
     "name": "@gyugyu/rollup-plugin-node-polyfills",
@@ -22070,7 +22141,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 1
   },
   {
     "name": "@h5easy/vite-plugin-upload",
@@ -22687,7 +22758,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 284
+    "weeklyDownloads": 178
   },
   {
     "name": "@helios-lang/rollup-plugin",
@@ -22955,7 +23026,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 6
   },
   {
     "name": "@higgins-mmt/i18n-transformer",
@@ -23459,7 +23530,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 833
+    "weeklyDownloads": 415
   },
   {
     "name": "@hsnaydd/xstyle",
@@ -23522,7 +23593,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 2
   },
   {
     "name": "@hueest/xray",
@@ -23721,8 +23792,8 @@
       "repository": "https://github.com/codetalcott/hyperfixi",
       "homepage": "https://github.com/codetalcott/hyperfixi/tree/main/packages/vite-plugin#readme"
     },
-    "version": "4.5.0",
-    "updatedAt": "2026-10-12T15:35:23.261Z",
+    "version": "4.6.0",
+    "updatedAt": "2026-10-15T21:42:52.652Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -23735,7 +23806,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 565
+    "weeklyDownloads": 715
   },
   {
     "name": "@hyperyond/vite-plugin",
@@ -23957,7 +24028,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 15
+    "weeklyDownloads": 50
   },
   {
     "name": "@idkwtm/simple-posts",
@@ -24044,7 +24115,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "@idonnyfe/vite-plugin-workflow",
@@ -24168,7 +24239,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1050
+    "weeklyDownloads": 252
   },
   {
     "name": "@im-nassinger/vite-plugin-openfl",
@@ -24874,7 +24945,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 0
+    "weeklyDownloads": 402
   },
   {
     "name": "@inkfarer/vite-plugin-nodecg",
@@ -24969,8 +25040,8 @@
       "repository": "https://github.com/opral/paraglide-js",
       "homepage": "https://paraglidejs.com"
     },
-    "version": "2.28.0",
-    "updatedAt": "2026-10-14T15:50:24.716Z",
+    "version": "2.29.0",
+    "updatedAt": "2026-10-15T18:16:39.325Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -25014,7 +25085,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 3
   },
   {
     "name": "@inox-tools/inline-mod",
@@ -25109,7 +25180,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 14
+    "weeklyDownloads": 16
   },
   {
     "name": "@inspector-agent/vite-plugin",
@@ -25128,8 +25199,8 @@
       "repository": "https://github.com/HamHyunJun/Inspector-Agent",
       "homepage": "https://github.com/HamHyunJun/Inspector-Agent/tree/main/packages/vite-plugin#readme"
     },
-    "version": "0.7.0",
-    "updatedAt": "2026-10-14T09:00:58.332Z",
+    "version": "0.7.1",
+    "updatedAt": "2026-10-16T03:06:10.770Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -25532,7 +25603,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 1
   },
   {
     "name": "@ireneliaoliao/vite-plugin-aliases",
@@ -26097,7 +26168,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 1
   },
   {
     "name": "@jacob-z/vite-plugin-semi-theme-loader",
@@ -26211,6 +26282,44 @@
       }
     },
     "weeklyDownloads": 9
+  },
+  {
+    "name": "@jantcz/webai",
+    "description": "Click an element on your site, tell an AI coding agent what to change: it edits the source. For any dev server: CLI, Vite, Astro, Next.js. Claude Code, Codex, Gemini CLI, OpenCode, Pi or a built-in agent with free models.",
+    "keywords": [
+      "ai",
+      "devtools",
+      "visual-editing",
+      "claude",
+      "codex",
+      "gemini",
+      "opencode",
+      "vite-plugin",
+      "astro-integration",
+      "withastro",
+      "nextjs",
+      "cli"
+    ],
+    "links": {
+      "npm": "https://npmx.dev/package/@jantcz/webai",
+      "repository": "https://github.com/JanTcz/WebAI",
+      "homepage": "https://github.com/JanTcz/WebAI#readme"
+    },
+    "version": "0.2.0",
+    "updatedAt": "2026-10-15T19:34:53.734Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=5"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 0
   },
   {
     "name": "@janustack/vite-config-paths",
@@ -26495,7 +26604,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1161
+    "weeklyDownloads": 433
   },
   {
     "name": "@jiangweixian1994/vite-plugin-windicss",
@@ -26894,7 +27003,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1026
+    "weeklyDownloads": 23
   },
   {
     "name": "@jk2908/mdsrc",
@@ -26911,8 +27020,8 @@
       "repository": "https://github.com/jk2908/mdsrc",
       "homepage": "https://github.com/jk2908/mdsrc#readme"
     },
-    "version": "0.8.3",
-    "updatedAt": "2026-10-14T07:06:47.063Z",
+    "version": "0.8.4",
+    "updatedAt": "2026-10-15T12:03:26.430Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -27074,7 +27183,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 6
   },
   {
     "name": "@jogarcia/vite-plugin-runtime-env",
@@ -27103,7 +27212,7 @@
   },
   {
     "name": "@johnmorrisdotca/rest-in-pieces",
-    "description": "A mock REST API and test data generator with realistic, seeded fake data for building and testing frontends: related datasets with referential integrity, paging, sorting, filters, errors and delays on demand, safe values, SVG avatars, real country and reg",
+    "description": "REST in Pieces — Fake REST API data for testing: seeded related datasets, paging, filters, latency and error drills, safe values, CSV/NDJSON/SQL, OpenAPI mocks, browser fetch, MSW and Vite.",
     "keywords": [
       "mock-api",
       "fake-api",
@@ -27215,15 +27324,16 @@
       "fake-addresses",
       "zip-codes",
       "csv-api",
-      "google-sheets"
+      "google-sheets",
+      "api-mock"
     ],
     "links": {
       "npm": "https://npmx.dev/package/@johnmorrisdotca/rest-in-pieces",
       "repository": "https://github.com/spxis/rest-in-pieces",
       "homepage": "https://spxis.github.io/rest-in-pieces/"
     },
-    "version": "3.1.0",
-    "updatedAt": "2026-10-10T07:47:10.027Z",
+    "version": "3.2.0",
+    "updatedAt": "2026-10-15T07:09:19.019Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -27236,7 +27346,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1856
+    "weeklyDownloads": 2084
   },
   {
     "name": "@johnsonhuang4396/vite-plugin-api-smasher",
@@ -27641,7 +27751,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 65
+    "weeklyDownloads": 5
   },
   {
     "name": "@jslop/vite",
@@ -28668,8 +28778,8 @@
       "repository": "https://github.com/kanso-labs/unplugin-style-dictionary",
       "homepage": "https://github.com/kanso-labs/unplugin-style-dictionary#readme"
     },
-    "version": "0.10.30",
-    "updatedAt": "2026-10-14T17:05:14.985Z",
+    "version": "0.10.31",
+    "updatedAt": "2026-10-15T13:50:46.326Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -29046,7 +29156,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 13
   },
   {
     "name": "@kele23/appscript-vite-plugin",
@@ -29105,7 +29215,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 9
+    "weeklyDownloads": 158
   },
   {
     "name": "@kev1n-peters/vite-plugin-node-polyfills",
@@ -29253,30 +29363,30 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 14
+    "weeklyDownloads": 3
   },
   {
     "name": "@kibuniverse/domino",
     "description": "Select React elements in your browser and edit their source with a local coding agent.",
     "keywords": [
-      "vite",
-      "vite-plugin",
-      "react",
-      "codex",
-      "claude",
       "agent",
+      "claude",
+      "codex",
       "coding-agent",
       "dx",
-      "webpack",
-      "rspack"
+      "react",
+      "rspack",
+      "vite",
+      "vite-plugin",
+      "webpack"
     ],
     "links": {
       "npm": "https://npmx.dev/package/@kibuniverse/domino",
       "repository": "https://github.com/kibuniverse/domino",
       "homepage": "https://github.com/kibuniverse/domino#readme"
     },
-    "version": "0.2.0",
-    "updatedAt": "2026-10-03T09:36:39.918Z",
+    "version": "0.3.0",
+    "updatedAt": "2026-10-15T14:42:21.493Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -29289,7 +29399,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 678
+    "weeklyDownloads": 26
   },
   {
     "name": "@kids-interactive/vite-plugin-workspace-aliasing",
@@ -29658,7 +29768,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 1
   },
   {
     "name": "@kitschpatrol/unplugin-aphex",
@@ -29802,8 +29912,8 @@
       "repository": "https://github.com/kloudmate/rum-web",
       "homepage": "https://docs.kloudmate.com/rum/instrumentation-guide/"
     },
-    "version": "0.1.2",
-    "updatedAt": "2026-10-15T06:35:38.129Z",
+    "version": "0.1.3",
+    "updatedAt": "2026-10-15T12:44:59.111Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -30249,7 +30359,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 7
   },
   {
     "name": "@kumikijs/vite",
@@ -30833,7 +30943,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 2
   },
   {
     "name": "@leafphp/vite-plugin",
@@ -31076,7 +31186,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 14
   },
   {
     "name": "@lensmcp/vite-plugin",
@@ -31200,7 +31310,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 9
+    "weeklyDownloads": 2
   },
   {
     "name": "@let-value/translate-loader",
@@ -31409,7 +31519,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5969
+    "weeklyDownloads": 4560
   },
   {
     "name": "@linaria/vite",
@@ -31973,7 +32083,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 365
+    "weeklyDownloads": 15
   },
   {
     "name": "@live-visual-edit/vite-plugin",
@@ -32130,7 +32240,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 56
+    "weeklyDownloads": 32
   },
   {
     "name": "@localive/vite",
@@ -32385,7 +32495,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 1
   },
   {
     "name": "@lordbeanbag/vite-plugin-svg-icons-monorepo",
@@ -32504,7 +32614,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 409
+    "weeklyDownloads": 230
   },
   {
     "name": "@lphal/vite-plugin-svg-icons",
@@ -32749,7 +32859,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 6
   },
   {
     "name": "@lupas/unplugin-vue-router",
@@ -32969,7 +33079,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 4
   },
   {
     "name": "@m-f2e/vite-plugin-import-antd",
@@ -33174,7 +33284,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 3
   },
   {
     "name": "@macaly/static-tagger",
@@ -33394,7 +33504,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 32
+    "weeklyDownloads": 6
   },
   {
     "name": "@madebyspeak/vite-plugin-absolute-imports",
@@ -33615,7 +33725,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 4
   },
   {
     "name": "@magicmock/unplugin",
@@ -34112,7 +34222,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 38
+    "weeklyDownloads": 30
   },
   {
     "name": "@manwang/langs-plugin",
@@ -34170,7 +34280,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 1
   },
   {
     "name": "@maravilla-labs/vite-plugin",
@@ -34187,8 +34297,8 @@
       "repository": "https://github.com/solutas/maravilla-runtime",
       "homepage": "https://github.com/solutas/maravilla-runtime#readme"
     },
-    "version": "15.0.0",
-    "updatedAt": "2026-09-29T18:03:44.866Z",
+    "version": "16.0.0",
+    "updatedAt": "2026-10-15T22:19:13.052Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -34201,7 +34311,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 113
+    "weeklyDownloads": 132
   },
   {
     "name": "@marcuwynu23/vite-plugin-env-banner",
@@ -34508,7 +34618,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 1
   },
   {
     "name": "@maxlee/vsh",
@@ -34965,8 +35075,8 @@
       "repository": "https://github.com/Medico-Mind/rolldown-compression",
       "homepage": "https://github.com/Medico-Mind/rolldown-compression#readme"
     },
-    "version": "2.6.0",
-    "updatedAt": "2026-10-14T14:20:05.720Z",
+    "version": "2.6.1",
+    "updatedAt": "2026-10-15T18:31:46.318Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -34998,8 +35108,8 @@
       "repository": "https://github.com/Medico-Mind/rolldown-compression",
       "homepage": "https://github.com/Medico-Mind/rolldown-compression#readme"
     },
-    "version": "2.6.0",
-    "updatedAt": "2026-10-14T14:19:22.126Z",
+    "version": "2.6.1",
+    "updatedAt": "2026-10-15T18:32:11.476Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -35030,8 +35140,8 @@
       "repository": "https://github.com/Medico-Mind/rolldown-compression",
       "homepage": "https://github.com/Medico-Mind/rolldown-compression#readme"
     },
-    "version": "2.6.0",
-    "updatedAt": "2026-10-14T14:18:58.639Z",
+    "version": "2.6.1",
+    "updatedAt": "2026-10-15T18:28:50.105Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -35062,8 +35172,8 @@
       "repository": "https://github.com/Medico-Mind/rolldown-compression",
       "homepage": "https://github.com/Medico-Mind/rolldown-compression#readme"
     },
-    "version": "2.6.0",
-    "updatedAt": "2026-10-14T14:17:51.376Z",
+    "version": "2.6.1",
+    "updatedAt": "2026-10-15T18:28:58.003Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -35094,8 +35204,8 @@
       "repository": "https://github.com/Medico-Mind/rolldown-compression",
       "homepage": "https://github.com/Medico-Mind/rolldown-compression#readme"
     },
-    "version": "2.6.0",
-    "updatedAt": "2026-10-14T14:23:15.298Z",
+    "version": "2.6.1",
+    "updatedAt": "2026-10-15T18:30:11.062Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -35126,8 +35236,8 @@
       "repository": "https://github.com/Medico-Mind/rolldown-compression",
       "homepage": "https://github.com/Medico-Mind/rolldown-compression#readme"
     },
-    "version": "2.6.0",
-    "updatedAt": "2026-10-14T14:18:47.631Z",
+    "version": "2.6.1",
+    "updatedAt": "2026-10-15T18:29:37.261Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -35165,8 +35275,8 @@
       "repository": "https://github.com/Medico-Mind/rolldown-compression",
       "homepage": "https://github.com/Medico-Mind/rolldown-compression#readme"
     },
-    "version": "2.6.0",
-    "updatedAt": "2026-10-14T14:18:32.886Z",
+    "version": "2.6.1",
+    "updatedAt": "2026-10-15T18:30:23.161Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -35197,8 +35307,8 @@
       "repository": "https://github.com/Medico-Mind/rolldown-compression",
       "homepage": "https://github.com/Medico-Mind/rolldown-compression#readme"
     },
-    "version": "2.6.0",
-    "updatedAt": "2026-10-14T14:18:40.136Z",
+    "version": "2.6.1",
+    "updatedAt": "2026-10-15T18:30:00.333Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -35649,7 +35759,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 1
   },
   {
     "name": "@mico_fe/vite-plugin-i18n-vue",
@@ -35707,7 +35817,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 1
   },
   {
     "name": "@microsoft/applicationinsights-rollup-es3",
@@ -35738,7 +35848,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 380
+    "weeklyDownloads": 318
   },
   {
     "name": "@microsoft/applicationinsights-rollup-es5",
@@ -35770,7 +35880,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 20
+    "weeklyDownloads": 18
   },
   {
     "name": "@microsoft/apps-vite-plugin",
@@ -35797,7 +35907,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 1
   },
   {
     "name": "@microsoft/managed-apps-vite-plugin",
@@ -36251,7 +36361,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 4
   },
   {
     "name": "@minna-ui/rollup-plugin-dev-server",
@@ -36531,7 +36641,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 11
+    "weeklyDownloads": 17
   },
   {
     "name": "@mistyjs/vite-plugin-vitepress",
@@ -36778,7 +36888,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 508
+    "weeklyDownloads": 342
   },
   {
     "name": "@mlut/plugins",
@@ -37129,7 +37239,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 223
+    "weeklyDownloads": 265
   },
   {
     "name": "@modelschemas/vite",
@@ -37192,7 +37302,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 234
+    "weeklyDownloads": 246
   },
   {
     "name": "@modular-css/rollup-rewriter",
@@ -37258,7 +37368,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 130
+    "weeklyDownloads": 15
   },
   {
     "name": "@modular-css/vite",
@@ -37720,7 +37830,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 99
+    "weeklyDownloads": 282
   },
   {
     "name": "@moritzloewenstein/vite-plugin-rsync",
@@ -37747,7 +37857,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 1
   },
   {
     "name": "@moritzloewenstein/vite-plugin-sass-glob-import",
@@ -37776,7 +37886,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 1
   },
   {
     "name": "@moritzloewenstein/vite-plugin-zip",
@@ -37830,7 +37940,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 2
   },
   {
     "name": "@morlz/rollup-plugin-scss",
@@ -37980,7 +38090,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 123
+    "weeklyDownloads": 45
   },
   {
     "name": "@mrwaip/vite-plugin-svelte",
@@ -38010,7 +38120,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 14
   },
   {
     "name": "@multiplatform.one/vite-plugin-gnome",
@@ -38315,7 +38425,7 @@
         "versions": "^5.2.0 || ^6.0.0 || ^7.0.0 || ^8.0.0"
       }
     },
-    "weeklyDownloads": 204
+    "weeklyDownloads": 161
   },
   {
     "name": "@myriaddreamin/vite-plugin-typst",
@@ -38378,7 +38488,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 10
+    "weeklyDownloads": 8
   },
   {
     "name": "@n9org/vitejs-plugin-react-swc",
@@ -38849,8 +38959,8 @@
       "repository": "https://github.com/navecss/navecss",
       "homepage": "https://github.com/navecss/navecss/tree/main/packages/core#readme"
     },
-    "version": "0.3.0",
-    "updatedAt": "2026-10-12T19:15:44.277Z",
+    "version": "0.4.0",
+    "updatedAt": "2026-10-15T20:27:13.016Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -38862,7 +38972,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 10
+    "weeklyDownloads": 168
   },
   {
     "name": "@navelpluisje/rollup-plugin-css",
@@ -38993,7 +39103,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 12
+    "weeklyDownloads": 10
   },
   {
     "name": "@nebula-db/vite-plugin",
@@ -39516,7 +39626,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 58
+    "weeklyDownloads": 237
   },
   {
     "name": "@netlify/vite-plugin-react-router",
@@ -40095,7 +40205,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 6
   },
   {
     "name": "@nodaomg/style9",
@@ -40719,7 +40829,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 17
+    "weeklyDownloads": 5
   },
   {
     "name": "@nsna-dev/vite-plugin",
@@ -40750,7 +40860,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 1
   },
   {
     "name": "@nuance-fe/unplugin-assets-transform",
@@ -40968,11 +41078,11 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 54
+    "weeklyDownloads": 83
   },
   {
     "name": "@nxgt/material-core",
-    "description": "The framework-free core of @nxgt/material and @nxgt/material-vue: the PDF document model and its react-pdf renderer, print formatters, PDF file helpers, the PDF viewer's pure modules, the currency digits, the file-size formatter, the field-blur layers, a ",
+    "description": "The framework-free core of @nxgt/material and @nxgt/material-vue: the PDF document model and its react-pdf renderer, print formatters, PDF file helpers, the PDF viewer's pure modules, the currency digits, the file-size formatter, the field-blur layers, th",
     "keywords": [
       "backgrounds",
       "pdf",
@@ -40988,8 +41098,8 @@
       "npm": "https://npmx.dev/package/@nxgt/material-core",
       "repository": "https://github.com/softistx/nxgt-material"
     },
-    "version": "0.20.0",
-    "updatedAt": "2026-10-15T02:59:16.694Z",
+    "version": "0.23.0",
+    "updatedAt": "2026-10-16T00:56:33.095Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -41588,7 +41698,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 5
   },
   {
     "name": "@ohos-ports/rollup-plugin-node-polyfills",
@@ -41614,7 +41724,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 7
   },
   {
     "name": "@ohos-ports/rollup-plugin-polyfill-node",
@@ -41890,7 +42000,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 4
   },
   {
     "name": "@ohos-ports/vite-plugin-imagemin",
@@ -42025,7 +42135,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 5
   },
   {
     "name": "@ohos-ports/vite-plugin-relay",
@@ -42087,7 +42197,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 5
   },
   {
     "name": "@ohos-ports/vite-plugin-vsharp",
@@ -42221,7 +42331,7 @@
         "reason": "Uses Vite-specific APIs"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 5
   },
   {
     "name": "@ohos-ports/vitejs-plugin-vue-jsx",
@@ -42263,7 +42373,7 @@
         "reason": "Uses Vite-specific APIs"
       }
     },
-    "weeklyDownloads": 9
+    "weeklyDownloads": 3
   },
   {
     "name": "@okcy/vite-plugin-html",
@@ -43109,7 +43219,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 70
+    "weeklyDownloads": 17
   },
   {
     "name": "@openpolicy/vite-auto-collect",
@@ -43449,7 +43559,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1325
+    "weeklyDownloads": 966
   },
   {
     "name": "@osdk/views-manifest-vite-plugin",
@@ -43516,8 +43626,8 @@
       "repository": "https://github.com/palantir/osdk-ts",
       "homepage": "https://github.com/palantir/osdk-ts#readme"
     },
-    "version": "3.80.0",
-    "updatedAt": "2026-10-09T19:54:33.717Z",
+    "version": "3.81.0",
+    "updatedAt": "2026-10-15T21:14:20.934Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -44065,8 +44175,8 @@
       "repository": "https://github.com/tobynguyen-works/oxim",
       "homepage": "https://github.com/tobynguyen-works/oxim#readme"
     },
-    "version": "1.0.0-rc.1",
-    "updatedAt": "2026-10-15T03:02:39.462Z",
+    "version": "1.0.0-rc.2",
+    "updatedAt": "2026-10-15T08:40:36.150Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -44249,8 +44359,8 @@
       "repository": "https://github.com/426-330/pactor",
       "homepage": "https://github.com/426-330/pactor/tree/main/packages/vite-plugin"
     },
-    "version": "1.44.0",
-    "updatedAt": "2026-10-14T13:59:15.641Z",
+    "version": "1.46.0",
+    "updatedAt": "2026-10-16T06:28:12.640Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -44797,7 +44907,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 577
+    "weeklyDownloads": 33
   },
   {
     "name": "@path-ioc/unplugin",
@@ -44833,7 +44943,7 @@
         "versions": "*"
       }
     },
-    "weeklyDownloads": 582
+    "weeklyDownloads": 37
   },
   {
     "name": "@pathscale/rollup-plugin-tsickle",
@@ -44958,7 +45068,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 1
   },
   {
     "name": "@pdga-technology/vite-plugin-bugsnag",
@@ -46332,7 +46442,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 0
+    "weeklyDownloads": 229
   },
   {
     "name": "@plugin-123/my-f-plugin",
@@ -46503,8 +46613,8 @@
       "repository": "https://github.com/zss-in-js/plumeria",
       "homepage": "https://plumeria.dev"
     },
-    "version": "19.14.2",
-    "updatedAt": "2026-10-14T13:26:08.791Z",
+    "version": "19.14.3",
+    "updatedAt": "2026-10-15T12:41:36.871Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -46545,7 +46655,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 9
   },
   {
     "name": "@pocka/rollup-plugin-gleam",
@@ -47348,7 +47458,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 28
+    "weeklyDownloads": 6
   },
   {
     "name": "@prefresh/rolldown",
@@ -47417,7 +47527,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 204
+    "weeklyDownloads": 141
   },
   {
     "name": "@proliferate_ai/build-plugins",
@@ -47736,7 +47846,7 @@
         "versions": "^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0"
       }
     },
-    "weeklyDownloads": 219
+    "weeklyDownloads": 28
   },
   {
     "name": "@pyyupsk/vite-plugin-sitemap",
@@ -48127,7 +48237,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 49
+    "weeklyDownloads": 11
   },
   {
     "name": "@qtd/vite-plugin-lib-legacy",
@@ -48762,7 +48872,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 2
   },
   {
     "name": "@razohq/razo",
@@ -48784,8 +48894,8 @@
       "repository": "https://github.com/razohq/razo",
       "homepage": "https://github.com/razohq/razo/tree/main/packages/razo#readme"
     },
-    "version": "0.2.0",
-    "updatedAt": "2026-07-28T15:41:59.004Z",
+    "version": "0.3.0",
+    "updatedAt": "2026-10-16T03:16:56.936Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -48798,7 +48908,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 41
+    "weeklyDownloads": 37
   },
   {
     "name": "@rbnlffl/rollup-plugin-browser-sync",
@@ -48919,7 +49029,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 12
+    "weeklyDownloads": 1
   },
   {
     "name": "@react-code-view/unplugin",
@@ -49161,7 +49271,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 1
   },
   {
     "name": "@rednil/rollup-plugin-version-injector",
@@ -49373,7 +49483,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 0
+    "weeklyDownloads": 182
   },
   {
     "name": "@remax/rollup-plugin-url",
@@ -49997,7 +50107,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 548
+    "weeklyDownloads": 496
   },
   {
     "name": "@risemaxi/envault",
@@ -52240,7 +52350,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 1
   },
   {
     "name": "@roxavn/vite-env-only",
@@ -52295,8 +52405,8 @@
       "repository": "https://github.com/rsc-kit/rsc-kit",
       "homepage": "https://rsc-kit.dev"
     },
-    "version": "0.30.16",
-    "updatedAt": "2026-10-14T12:43:16.913Z",
+    "version": "0.30.19",
+    "updatedAt": "2026-10-15T15:08:50.475Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -52372,7 +52482,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 3
   },
   {
     "name": "@rsvelte/vite-plugin-svelte",
@@ -52463,7 +52573,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 1
   },
   {
     "name": "@rubennl/vite-plugin-graphql-codegen-optimized",
@@ -52590,10 +52700,10 @@
     "links": {
       "npm": "https://npmx.dev/package/@runic-artifex/vite-plugin-runic",
       "repository": "https://github.com/Runic-Artifex/runic-sdk",
-      "homepage": "https://github.com/Runic-Artifex/runic-sdk/tree/v0.8.0-preview.1/packages/web/vite-plugin-runic#readme"
+      "homepage": "https://github.com/Runic-Artifex/runic-sdk/tree/v0.8.0-preview.3/packages/web/vite-plugin-runic#readme"
     },
-    "version": "0.8.0-preview.1",
-    "updatedAt": "2026-10-15T01:27:38.196Z",
+    "version": "0.8.0-preview.3",
+    "updatedAt": "2026-10-15T15:35:50.178Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -53338,8 +53448,8 @@
       "npm": "https://npmx.dev/package/@sanity/vanilla-extract-vite-plugin",
       "homepage": "https://github.com/sanity-io/pkg-utils/tree/main/packages/@sanity/vanilla-extract-vite-plugin#readme"
     },
-    "version": "0.3.0",
-    "updatedAt": "2026-10-13T18:08:09.994Z",
+    "version": "0.3.1",
+    "updatedAt": "2026-10-15T07:41:47.518Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -53352,7 +53462,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 11685
+    "weeklyDownloads": 15649
   },
   {
     "name": "@sanzenwin/vite-plugin-html-variables",
@@ -53643,7 +53753,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 4
   },
   {
     "name": "@scenetest/vite-plugin",
@@ -53678,28 +53788,35 @@
     "weeklyDownloads": 56
   },
   {
-    "name": "@scenoco-three/vite",
-    "description": "Vite plugin for SceNoCo XML scene bundling",
+    "name": "@scenoco-three/tools",
+    "description": "SceNoCo's tools: `scenoco check` (a .tsx scene only declares), the `scenoco()` Vite plugin, and the read/edit layer the editor uses on scene files.",
     "keywords": [
       "three",
       "threejs",
-      "vite",
+      "scenoco",
+      "game-engine",
+      "game-framework",
+      "gamedev",
+      "web-game",
+      "webgl",
+      "typescript",
+      "unity",
+      "tsx",
       "vite-plugin",
-      "scene",
-      "components",
-      "gamedev"
+      "cli",
+      "lint"
     ],
     "links": {
-      "npm": "https://npmx.dev/package/@scenoco-three/vite",
+      "npm": "https://npmx.dev/package/@scenoco-three/tools",
       "repository": "https://github.com/RomaRogov/scenoco-three",
-      "homepage": "https://github.com/RomaRogov/scenoco-three/tree/main/packages/vite#readme"
+      "homepage": "https://github.com/RomaRogov/scenoco-three/tree/main/packages/tools#readme"
     },
-    "version": "0.6.0",
-    "updatedAt": "2026-09-03T15:25:32.137Z",
+    "version": "0.7.0",
+    "updatedAt": "2026-10-15T17:43:21.773Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
-        "versions": ">=5"
+        "versions": ">=6"
       },
       "rollup": {
         "type": "unknown"
@@ -53708,7 +53825,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 0
   },
   {
     "name": "@schemacompany/vite",
@@ -54180,11 +54297,11 @@
     ],
     "links": {
       "npm": "https://npmx.dev/package/@sentry/rollup-plugin",
-      "repository": "https://github.com/getsentry/sentry-javascript-bundler-plugins",
-      "homepage": "https://github.com/getsentry/sentry-javascript-bundler-plugins/tree/main/packages/rollup-plugin"
+      "repository": "https://github.com/getsentry/sentry-javascript",
+      "homepage": "https://github.com/getsentry/sentry-javascript/tree/develop/packages/rollup-plugin"
     },
-    "version": "5.4.1",
-    "updatedAt": "2026-10-06T12:59:25.957Z",
+    "version": "11.8.0",
+    "updatedAt": "2026-10-15T10:10:28.847Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -54197,7 +54314,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2551787
+    "weeklyDownloads": 2562720
   },
   {
     "name": "@sepoina/vitetranslate",
@@ -55121,7 +55238,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 3
   },
   {
     "name": "@shumih/rollup-plugin-polyfill-node",
@@ -55489,7 +55606,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 0
+    "weeklyDownloads": 458
   },
   {
     "name": "@simpcn/vite",
@@ -55638,7 +55755,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 19
+    "weeklyDownloads": 7
   },
   {
     "name": "@skax/rollup-config",
@@ -56414,7 +56531,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 9
+    "weeklyDownloads": 3
   },
   {
     "name": "@solidjs/vite-plugin",
@@ -56506,7 +56623,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 1
   },
   {
     "name": "@son426/vite-image",
@@ -56670,6 +56787,37 @@
       }
     },
     "weeklyDownloads": 40
+  },
+  {
+    "name": "@specbook/vite",
+    "description": "The Specbook plugin for Vite: the registry, the docs UI hooks and the dev server credential proxy.",
+    "keywords": [
+      "specbook",
+      "vite",
+      "vite-plugin",
+      "openapi",
+      "api-explorer"
+    ],
+    "links": {
+      "npm": "https://npmx.dev/package/@specbook/vite",
+      "repository": "https://github.com/specbook-dev/specbook",
+      "homepage": "https://ui.specbook.dev"
+    },
+    "version": "0.2.0",
+    "updatedAt": "2026-10-16T00:23:11.460Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=5.0.0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 0
   },
   {
     "name": "@specrig/vite",
@@ -56894,7 +57042,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 10
+    "weeklyDownloads": 1
   },
   {
     "name": "@srvkit/vite",
@@ -57296,7 +57444,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 10
+    "weeklyDownloads": 48
   },
   {
     "name": "@stareezy-ui/compiler",
@@ -57473,7 +57621,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 9
+    "weeklyDownloads": 199
   },
   {
     "name": "@std4453/rollup-plugin-typescript2",
@@ -57752,7 +57900,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 288
+    "weeklyDownloads": 664
   },
   {
     "name": "@stephansama/astro-iconify-svgmap",
@@ -58024,7 +58172,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 16
+    "weeklyDownloads": 5
   },
   {
     "name": "@storipress/vite-plugin-sentry",
@@ -58324,7 +58472,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 245
   },
   {
     "name": "@struggler/vite-plugin-mpa",
@@ -58517,7 +58665,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3201
+    "weeklyDownloads": 1777
   },
   {
     "name": "@stylelish/rollup-plugin-im-client-component",
@@ -59433,8 +59581,8 @@
       "repository": "https://github.com/say16/svelte-lean",
       "homepage": "https://svelte-lean.vercel.app/docs/architecture/build-time-discovery"
     },
-    "version": "0.16.0",
-    "updatedAt": "2026-10-14T12:18:27.727Z",
+    "version": "0.16.1",
+    "updatedAt": "2026-10-15T10:25:15.312Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -59615,7 +59763,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 3
   },
   {
     "name": "@sveltek/rehype-shiki",
@@ -59733,7 +59881,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 2
   },
   {
     "name": "@sveltekit-i18n/typegen",
@@ -59841,7 +59989,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2640
+    "weeklyDownloads": 1612
   },
   {
     "name": "@svg-use/vite",
@@ -60139,7 +60287,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 9
+    "weeklyDownloads": 4
   },
   {
     "name": "@swissjs/vite-plugin",
@@ -60616,7 +60764,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 0
+    "weeklyDownloads": 219
   },
   {
     "name": "@taserjs/plugin",
@@ -60651,7 +60799,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 191
+    "weeklyDownloads": 15
   },
   {
     "name": "@tblaisot/vite-plugin-html-x-adoc",
@@ -60738,7 +60886,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "@tcgis/vite-plugin-gtc",
@@ -61227,7 +61375,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 880
+    "weeklyDownloads": 694
   },
   {
     "name": "@thatsgolden/vite-plugin-html",
@@ -61348,7 +61496,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 100
+    "weeklyDownloads": 79
   },
   {
     "name": "@theholocron/rollup-plugin-transform-template",
@@ -61592,7 +61740,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 206
+    "weeklyDownloads": 98
   },
   {
     "name": "@tighten/jigsaw-vite-plugin",
@@ -61955,7 +62103,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 236
+    "weeklyDownloads": 231
   },
   {
     "name": "@tmaxmax/rollup-plugin-inject-process-env",
@@ -63050,7 +63198,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 0
+    "weeklyDownloads": 201
   },
   {
     "name": "@ts-refinement/unplugin",
@@ -63115,7 +63263,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 477
+    "weeklyDownloads": 10
   },
   {
     "name": "@ts-svg/svelte",
@@ -63146,7 +63294,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 473
+    "weeklyDownloads": 12
   },
   {
     "name": "@tslfe/tsl-env-vite-plugin",
@@ -63225,8 +63373,8 @@
       "repository": "https://github.com/samchon/ttsc",
       "homepage": "https://ttsc.dev"
     },
-    "version": "0.32.1",
-    "updatedAt": "2026-10-14T10:35:47.126Z",
+    "version": "0.33.0",
+    "updatedAt": "2026-10-16T03:17:41.820Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -63800,7 +63948,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 3
   },
   {
     "name": "@u-map/vite-plugin-mode-configs",
@@ -64362,15 +64510,21 @@
       "design-review",
       "overlay",
       "ai-agent",
-      "claude"
+      "claude",
+      "codex",
+      "cursor",
+      "copilot",
+      "gemini",
+      "agents-md",
+      "agent-skills"
     ],
     "links": {
       "npm": "https://npmx.dev/package/@umage.ai/redline",
       "repository": "https://github.com/umage-ai/redline",
       "homepage": "https://github.com/umage-ai/redline#readme"
     },
-    "version": "0.1.0",
-    "updatedAt": "2026-10-13T12:08:23.320Z",
+    "version": "0.2.0",
+    "updatedAt": "2026-10-15T20:24:11.606Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -64440,7 +64594,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 6
   },
   {
     "name": "@uni-helper/plugin-uni",
@@ -64470,7 +64624,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1241
+    "weeklyDownloads": 1260
   },
   {
     "name": "@uni-helper/unplugin-uni-sfc",
@@ -64694,7 +64848,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 1
   },
   {
     "name": "@union-design/vite-lhjf-build-config",
@@ -64814,7 +64968,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 84
+    "weeklyDownloads": 53
   },
   {
     "name": "@unjsio/rollup-plugin-dts",
@@ -65390,7 +65544,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 392
+    "weeklyDownloads": 13
   },
   {
     "name": "@usepatchly/vite-plugin",
@@ -65421,7 +65575,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 3
   },
   {
     "name": "@uskey512/vite-plugin-sri",
@@ -65604,7 +65758,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 2
   },
   {
     "name": "@v43/plugin-editor",
@@ -65636,7 +65790,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 1
   },
   {
     "name": "@v43/plugin-rpc",
@@ -66004,8 +66158,8 @@
       "repository": "https://github.com/velastack/cms",
       "homepage": "https://github.com/velastack/cms#readme"
     },
-    "version": "0.6.2",
-    "updatedAt": "2026-10-03T15:33:28.717Z",
+    "version": "0.6.5",
+    "updatedAt": "2026-10-15T20:45:41.258Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -66018,7 +66172,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 639
+    "weeklyDownloads": 66
   },
   {
     "name": "@velite/plugin-vite",
@@ -66108,7 +66262,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 2
   },
   {
     "name": "@velvet-thunder/holt",
@@ -66258,7 +66412,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 2
   },
   {
     "name": "@ventureweb/fluid-css",
@@ -66321,7 +66475,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 2
   },
   {
     "name": "@verajs/jsx",
@@ -66371,8 +66525,8 @@
       "repository": "https://github.com/AronSoto/verbaly",
       "homepage": "https://verbaly-web.vercel.app/docs/frameworks/vite#unplugin"
     },
-    "version": "0.71.0",
-    "updatedAt": "2026-10-15T05:45:20.545Z",
+    "version": "0.72.0",
+    "updatedAt": "2026-10-16T03:24:11.860Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -66399,8 +66553,8 @@
       "repository": "https://github.com/AronSoto/verbaly",
       "homepage": "https://verbaly-web.vercel.app/docs/frameworks/vite"
     },
-    "version": "0.71.0",
-    "updatedAt": "2026-10-15T05:45:06.896Z",
+    "version": "0.72.0",
+    "updatedAt": "2026-10-16T03:24:16.238Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -66670,8 +66824,8 @@
     "links": {
       "npm": "https://npmx.dev/package/@vibro/bro"
     },
-    "version": "0.5.0-alpha.0",
-    "updatedAt": "2026-09-11T16:58:19.454Z",
+    "version": "0.5.0-alpha.1",
+    "updatedAt": "2026-10-15T13:14:33.908Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -66700,8 +66854,8 @@
     "links": {
       "npm": "https://npmx.dev/package/@vibro/plugin"
     },
-    "version": "0.5.0-alpha.0",
-    "updatedAt": "2026-09-11T16:57:39.134Z",
+    "version": "0.5.0-alpha.1",
+    "updatedAt": "2026-10-15T13:13:18.302Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -66714,7 +66868,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 4
   },
   {
     "name": "@vicinage/unplugin",
@@ -67177,7 +67331,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 3
   },
   {
     "name": "@visulima/rollup-plugin-css",
@@ -67202,8 +67356,8 @@
       "repository": "https://github.com/visulima/packem",
       "homepage": "https://github.com/visulima/packem/tree/main/packages/rollup-plugin-css"
     },
-    "version": "1.0.1",
-    "updatedAt": "2026-09-06T11:52:44.399Z",
+    "version": "2.0.0",
+    "updatedAt": "2026-10-15T14:43:31.563Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -67725,7 +67879,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 26
+    "weeklyDownloads": 2
   },
   {
     "name": "@vite-pwa/astro",
@@ -68497,7 +68651,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 219
+    "weeklyDownloads": 236
   },
   {
     "name": "@vituum/vite-plugin-liquid",
@@ -68789,8 +68943,8 @@
       "repository": "https://github.com/ubugeeei-prod/vize",
       "homepage": "https://github.com/ubugeeei-prod/vize"
     },
-    "version": "0.454.0",
-    "updatedAt": "2026-10-14T11:35:45.748Z",
+    "version": "0.457.0",
+    "updatedAt": "2026-10-15T21:26:28.688Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -68826,8 +68980,8 @@
       "repository": "https://github.com/ubugeeei-prod/vize",
       "homepage": "https://github.com/ubugeeei-prod/vize"
     },
-    "version": "0.454.0",
-    "updatedAt": "2026-10-14T11:35:01.740Z",
+    "version": "0.457.0",
+    "updatedAt": "2026-10-15T21:27:08.859Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -68857,8 +69011,8 @@
       "repository": "https://github.com/ubugeeei-prod/vize",
       "homepage": "https://github.com/ubugeeei-prod/vize"
     },
-    "version": "0.454.0",
-    "updatedAt": "2026-10-14T11:38:17.787Z",
+    "version": "0.457.0",
+    "updatedAt": "2026-10-15T21:26:29.051Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -68963,7 +69117,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 6
   },
   {
     "name": "@voidvolker/rollup-copy",
@@ -68978,8 +69132,8 @@
       "repository": "https://github.com/VoidVolker/rollup-copy",
       "homepage": "https://github.com/VoidVolker/rollup-copy#readme"
     },
-    "version": "1.0.0",
-    "updatedAt": "2026-08-08T13:51:55.136Z",
+    "version": "1.0.1",
+    "updatedAt": "2026-10-15T14:53:23.317Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -68991,7 +69145,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 1
   },
   {
     "name": "@volpe/astro-react-spa",
@@ -70459,7 +70613,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 0
   },
   {
     "name": "@vzeta/rollup-plugin-sbom",
@@ -71214,8 +71368,8 @@
       "repository": "https://github.com/webflow/webflow.js",
       "homepage": "https://github.com/webflow/webflow.js/tree/main/packages/tsw#readme"
     },
-    "version": "0.6.0",
-    "updatedAt": "2026-10-14T21:46:29.109Z",
+    "version": "0.6.1",
+    "updatedAt": "2026-10-16T01:26:04.404Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -71572,7 +71726,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 12
+    "weeklyDownloads": 8
   },
   {
     "name": "@whythis/vite",
@@ -71632,7 +71786,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 44
+    "weeklyDownloads": 4
   },
   {
     "name": "@wim.deblauwe/vite-plugin-spring-boot",
@@ -71729,7 +71883,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 0
   },
   {
     "name": "@winner-fed/unplugin-vue-setup-extend",
@@ -71946,7 +72100,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 1
   },
   {
     "name": "@workfly/vite-plugin",
@@ -72778,8 +72932,8 @@
       "repository": "https://github.com/xcwds/xcwds",
       "homepage": "https://github.com/xcwds/xcwds#readme"
     },
-    "version": "0.3.0",
-    "updatedAt": "2026-10-14T01:27:09.038Z",
+    "version": "0.4.0",
+    "updatedAt": "2026-10-15T19:00:38.375Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -73056,7 +73210,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 5
   },
   {
     "name": "@xingwangzhe/cjk-font-split-native",
@@ -73090,7 +73244,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1440
+    "weeklyDownloads": 1415
   },
   {
     "name": "@xintao1105/vite-plugin-cesium",
@@ -73208,7 +73362,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "@xstate-devtools/vite-plugin",
@@ -73538,7 +73692,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 3
   },
   {
     "name": "@xtail/unplugin-vue3-n",
@@ -73706,7 +73860,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 31
+    "weeklyDownloads": 246
   },
   {
     "name": "@xunv/vite-plugin-qiankun-lite",
@@ -74243,7 +74397,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 8
   },
   {
     "name": "@yamatomo/codegen-client-preset-transform",
@@ -74485,7 +74639,36 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 1
+  },
+  {
+    "name": "@yggdrasil-dx/server",
+    "description": "Servidor de desarrollo de Yggdrasil-dx: plugin de Vite, preview aislado y API del registro",
+    "keywords": [
+      "yggdrasil-dx",
+      "vite",
+      "vite-plugin",
+      "react"
+    ],
+    "links": {
+      "npm": "https://npmx.dev/package/@yggdrasil-dx/server",
+      "repository": "https://github.com/mauriciorossdev/yggdrasil-dx",
+      "homepage": "https://github.com/mauriciorossdev/yggdrasil-dx#readme"
+    },
+    "version": "0.1.2",
+    "updatedAt": "2026-10-15T21:25:25.365Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 0
   },
   {
     "name": "@ygkit/vite-plugin-qiankun",
@@ -74692,7 +74875,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 9
+    "weeklyDownloads": 1
   },
   {
     "name": "@yoamigo.com/core",
@@ -75109,7 +75292,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "@yuloh/rollup-plugin-terser",
@@ -75184,8 +75367,8 @@
       "repository": "https://github.com/yummacss/yummacss",
       "homepage": "https://yummacss.com"
     },
-    "version": "4.6.1",
-    "updatedAt": "2026-10-13T23:23:49.024Z",
+    "version": "4.7.0",
+    "updatedAt": "2026-10-15T13:49:02.504Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -75457,7 +75640,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 9
+    "weeklyDownloads": 0
   },
   {
     "name": "@zauni/unplugin-openapi",
@@ -75583,7 +75766,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 2
   },
   {
     "name": "@zeekay/rollup-plugin-coffee",
@@ -75880,7 +76063,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 23
+    "weeklyDownloads": 13
   },
   {
     "name": "@zessjs/vite-plugin",
@@ -76389,7 +76572,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 195
+    "weeklyDownloads": 571
   },
   {
     "name": "@zrlps/rollup-plugin-resolve",
@@ -76539,7 +76722,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 54
+    "weeklyDownloads": 6
   },
   {
     "name": "aai-vite-plugin-css-injected-by-js",
@@ -76723,7 +76906,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 132
+    "weeklyDownloads": 111
   },
   {
     "name": "acture-build-tier",
@@ -76757,7 +76940,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 0
   },
   {
     "name": "adi-proxy-rollup-plugin-vue",
@@ -76776,6 +76959,40 @@
     "compatibility": {
       "vite": {
         "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 0
+  },
+  {
+    "name": "aether-haml-lit",
+    "description": "ÆtherHAML — HAML-style .lithaml templates compiled to Lit html`…` render functions, with a Vite plugin",
+    "keywords": [
+      "haml",
+      "lit",
+      "vite",
+      "vite-plugin",
+      "template",
+      "template-engine",
+      "coffeescript",
+      "aether"
+    ],
+    "links": {
+      "npm": "https://npmx.dev/package/aether-haml-lit",
+      "repository": "https://github.com/dantiel/aether-haml-lit",
+      "homepage": "https://github.com/dantiel/aether-haml-lit#readme"
+    },
+    "version": "1.0.0",
+    "updatedAt": "2026-10-16T06:28:01.381Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=4"
       },
       "rollup": {
         "type": "unknown"
@@ -76919,7 +77136,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 41
+    "weeklyDownloads": 18
   },
   {
     "name": "agent-ui-kit",
@@ -77219,7 +77436,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 0
   },
   {
     "name": "arckode-ui",
@@ -77614,8 +77831,8 @@
       "repository": "https://github.com/ata-core/ata-vite",
       "homepage": "https://github.com/ata-core/ata-vite#readme"
     },
-    "version": "0.8.0",
-    "updatedAt": "2026-09-30T17:37:42.388Z",
+    "version": "0.8.1",
+    "updatedAt": "2026-10-15T11:43:26.247Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -77857,6 +78074,44 @@
     "weeklyDownloads": 73
   },
   {
+    "name": "auto-types-api",
+    "description": "Bridge between modules-page-routing API files and endpoint-kit: declare typed endpoints once, get a typed client generated for you",
+    "keywords": [
+      "typescript",
+      "api",
+      "types",
+      "codegen",
+      "react-router",
+      "modules-page-routing",
+      "endpoint-kit",
+      "type-safe",
+      "standard-schema",
+      "zod",
+      "vite-plugin",
+      "openapi",
+      "ssr"
+    ],
+    "links": {
+      "npm": "https://npmx.dev/package/auto-types-api",
+      "repository": "https://github.com/sonicname/auto-types-api",
+      "homepage": "https://github.com/sonicname/auto-types-api#readme"
+    },
+    "version": "0.0.1",
+    "updatedAt": "2026-10-16T02:51:06.968Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 0
+  },
+  {
     "name": "babel-plugin-saykit",
     "description": "Babel plugin for SayKit",
     "keywords": [
@@ -77992,7 +78247,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 4
   },
   {
     "name": "better-laravel-vite-plugin",
@@ -78056,7 +78311,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 413
+    "weeklyDownloads": 20
   },
   {
     "name": "better-translation",
@@ -78261,7 +78516,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 69
+    "weeklyDownloads": 316
   },
   {
     "name": "bini-ssg",
@@ -78299,7 +78554,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 39
+    "weeklyDownloads": 225
   },
   {
     "name": "boneyard-js",
@@ -78430,7 +78685,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 7
   },
   {
     "name": "brown-vite-plugin-cesium",
@@ -79410,7 +79665,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 23
+    "weeklyDownloads": 157
   },
   {
     "name": "coldspa",
@@ -79809,7 +80064,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "create-jsonlink",
@@ -80019,7 +80274,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 3
   },
   {
     "name": "create-react-latest",
@@ -80148,7 +80403,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "create-vitawind",
@@ -80644,8 +80899,8 @@
     "links": {
       "npm": "https://npmx.dev/package/deshijs"
     },
-    "version": "3.1.0",
-    "updatedAt": "2026-09-20T19:03:20.994Z",
+    "version": "3.1.1",
+    "updatedAt": "2026-10-15T14:52:39.506Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -80719,7 +80974,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 2
   },
   {
     "name": "dev-proxy-plugin",
@@ -81099,7 +81354,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 27
+    "weeklyDownloads": 26
   },
   {
     "name": "domagic-vite-plugin",
@@ -81689,8 +81944,8 @@
       "repository": "https://github.com/jarrednorrisdev/effect-atom-svelte",
       "homepage": "https://atom.jarrednorris.dev"
     },
-    "version": "0.2.2",
-    "updatedAt": "2026-10-11T19:07:53.779Z",
+    "version": "0.3.0",
+    "updatedAt": "2026-10-15T23:18:03.498Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -81703,7 +81958,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 432
+    "weeklyDownloads": 606
   },
   {
     "name": "effect-sugar-vite",
@@ -81889,7 +82144,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 1
   },
   {
     "name": "encrypt-webpack-loader",
@@ -82027,7 +82282,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 49
+    "weeklyDownloads": 69
   },
   {
     "name": "env-manage-plugin",
@@ -82375,6 +82630,44 @@
       }
     },
     "weeklyDownloads": 587
+  },
+  {
+    "name": "favipulse",
+    "description": "Tiny (<3 KB gz), zero-dependency, typed favicon library: deterministic generative/identicon favicons from a seed with self-drawing animation, badges, progress rings and pulse, plus per-environment (dev/staging/prod) icons. CLI generates svg/ico/png sets +",
+    "keywords": [
+      "favicon",
+      "identicon",
+      "badge",
+      "progress",
+      "notification",
+      "generative",
+      "environment",
+      "favico",
+      "tinycon",
+      "vite-plugin",
+      "nextjs",
+      "svg",
+      "pwa"
+    ],
+    "links": {
+      "npm": "https://npmx.dev/package/favipulse",
+      "repository": "https://github.com/MrLouisWright/favipulse",
+      "homepage": "https://mrlouiswright.github.io/favipulse/"
+    },
+    "version": "1.1.0",
+    "updatedAt": "2026-10-15T10:02:51.463Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 0
   },
   {
     "name": "fe-guard-vite-plugin",
@@ -82802,8 +83095,8 @@
       "repository": "https://github.com/MrLouisWright/form-honeypot-guard",
       "homepage": "https://mrlouiswright.github.io/form-honeypot-guard/"
     },
-    "version": "1.1.1",
-    "updatedAt": "2026-10-14T09:10:13.206Z",
+    "version": "1.2.0",
+    "updatedAt": "2026-10-15T10:03:07.820Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -83077,7 +83370,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1569
+    "weeklyDownloads": 3235
   },
   {
     "name": "generate-react-lib",
@@ -83171,8 +83464,8 @@
       "repository": "https://github.com/kevinpbaker/gesso",
       "homepage": "https://gesso-docs.vercel.app"
     },
-    "version": "0.6.21",
-    "updatedAt": "2026-10-15T04:23:38.422Z",
+    "version": "0.6.24",
+    "updatedAt": "2026-10-16T06:16:00.223Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -83333,7 +83626,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 100
+    "weeklyDownloads": 5
   },
   {
     "name": "glinter-plugin-vite",
@@ -83626,7 +83919,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 0
   },
   {
     "name": "hfex-auto-externals-plugin",
@@ -83786,7 +84079,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 103
+    "weeklyDownloads": 48
   },
   {
     "name": "html-auto-reload",
@@ -83855,7 +84148,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 166
+    "weeklyDownloads": 289
   },
   {
     "name": "hyp-sprites-img",
@@ -84088,7 +84381,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "icon-prerender",
@@ -85289,7 +85582,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 1
   },
   {
     "name": "kolaby",
@@ -85442,7 +85735,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 9
+    "weeklyDownloads": 14
   },
   {
     "name": "laravel-i18n-react",
@@ -85475,7 +85768,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 10
+    "weeklyDownloads": 2
   },
   {
     "name": "laravel-react-i18n",
@@ -85598,6 +85891,39 @@
       }
     },
     "weeklyDownloads": 2081111
+  },
+  {
+    "name": "laravel-vite-plugin-vue-mcp",
+    "description": "MCP server for your Laravel + Vue app (component tree, state, routes and Pinia), auto-attached to your laravel-vite-plugin entry. Fork of vite-plugin-vue-mcp by Arlo (@webfansplz).",
+    "keywords": [
+      "vite-plugin",
+      "vite",
+      "vue",
+      "laravel",
+      "inertia",
+      "mcp",
+      "modelcontextprotocol"
+    ],
+    "links": {
+      "npm": "https://npmx.dev/package/laravel-vite-plugin-vue-mcp",
+      "repository": "https://github.com/Klipsik/laravel-vite-plugin-vue-mcp",
+      "homepage": "https://github.com/Klipsik/laravel-vite-plugin-vue-mcp#readme"
+    },
+    "version": "1.0.0",
+    "updatedAt": "2026-10-15T17:34:46.274Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "^3.1.0 || ^4.0.0-0 || ^5.0.0-0 || ^6.0.0-0 || ^7.0.0-0 || ^8.0.0-0"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 0
   },
   {
     "name": "laravel-vite-plugin2",
@@ -86382,7 +86708,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 4
   },
   {
     "name": "magebook",
@@ -86446,6 +86772,40 @@
       }
     },
     "weeklyDownloads": 205
+  },
+  {
+    "name": "mangoscript",
+    "description": "A language with JavaScript semantics, Go-style syntax and static types that compiles to readable JavaScript",
+    "keywords": [
+      "mangoscript",
+      "programming-language",
+      "compiler",
+      "javascript",
+      "static-typing",
+      "go",
+      "vite-plugin",
+      "web-components"
+    ],
+    "links": {
+      "npm": "https://npmx.dev/package/mangoscript",
+      "repository": "https://github.com/QWERN-9876r/MangoScript",
+      "homepage": "https://qwern-9876r.github.io/MangoScript/"
+    },
+    "version": "0.2.0",
+    "updatedAt": "2026-10-15T18:37:42.008Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": ">=5"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 0
   },
   {
     "name": "mappergen",
@@ -86535,7 +86895,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 21
+    "weeklyDownloads": 29
   },
   {
     "name": "margo-dev",
@@ -87219,8 +87579,8 @@
       "repository": "https://github.com/jagreehal/mountly",
       "homepage": "https://github.com/jagreehal/mountly#readme"
     },
-    "version": "4.4.0",
-    "updatedAt": "2026-10-02T06:37:47.891Z",
+    "version": "4.5.0",
+    "updatedAt": "2026-10-15T07:16:22.121Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -87233,7 +87593,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 380
+    "weeklyDownloads": 17
   },
   {
     "name": "mp-weixin-back",
@@ -87274,7 +87634,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 21
+    "weeklyDownloads": 6
   },
   {
     "name": "msoffice-addin",
@@ -87423,7 +87783,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "navilo",
@@ -87514,7 +87874,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 1
   },
   {
     "name": "ng-js-vite",
@@ -87687,8 +88047,8 @@
       "repository": "https://github.com/nitrojs/nitro",
       "homepage": "https://nitro.build"
     },
-    "version": "3.0.1-20261015-062752-9350ff51",
-    "updatedAt": "2026-10-15T06:29:23.273Z",
+    "version": "3.0.1-20261015-090459-9d34a3c1",
+    "updatedAt": "2026-10-15T09:07:20.049Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -87984,7 +88344,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 21
+    "weeklyDownloads": 3
   },
   {
     "name": "olovacompiler",
@@ -88016,7 +88376,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "olovaplugin",
@@ -88047,7 +88407,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 20
+    "weeklyDownloads": 13
   },
   {
     "name": "olovastart",
@@ -88141,7 +88501,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 0
+    "weeklyDownloads": 303
   },
   {
     "name": "onmax-vitepress-plugin-llms",
@@ -89169,7 +89529,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 4
   },
   {
     "name": "quantcss",
@@ -89288,7 +89648,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 94
+    "weeklyDownloads": 125
   },
   {
     "name": "rag-chatbot-plugin",
@@ -90021,7 +90381,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 140
+    "weeklyDownloads": 121
   },
   {
     "name": "react-pebble",
@@ -90097,7 +90457,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 837
+    "weeklyDownloads": 139
   },
   {
     "name": "react-preprocessor",
@@ -90121,8 +90481,8 @@
       "repository": "https://github.com/mm1995tk/react-preprocessor",
       "homepage": "https://mm1995tk.github.io/react-preprocessor/"
     },
-    "version": "0.1.1",
-    "updatedAt": "2026-10-14T16:22:40.954Z",
+    "version": "0.1.2",
+    "updatedAt": "2026-10-15T14:27:14.956Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -90468,7 +90828,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 4
   },
   {
     "name": "react-vfor",
@@ -90534,7 +90894,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "reatom-naming-plugin",
@@ -90703,7 +91063,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 52
+    "weeklyDownloads": 12
   },
   {
     "name": "registyle",
@@ -91281,7 +91641,7 @@
         "versions": "^1.0.0"
       }
     },
-    "weeklyDownloads": 928
+    "weeklyDownloads": 448
   },
   {
     "name": "rolldown-plugin-copy-files",
@@ -91302,8 +91662,8 @@
       "npm": "https://npmx.dev/package/rolldown-plugin-copy-files",
       "repository": "https://github.com/ajiho/rolldown-plugin-copy-files"
     },
-    "version": "0.2.0",
-    "updatedAt": "2026-08-12T07:42:42.519Z",
+    "version": "0.3.0",
+    "updatedAt": "2026-10-15T14:52:41.662Z",
     "compatibility": {
       "vite": {
         "type": "unknown"
@@ -91367,7 +91727,7 @@
         "versions": ">=1.0.0"
       }
     },
-    "weeklyDownloads": 12
+    "weeklyDownloads": 32
   },
   {
     "name": "rolldown-plugin-dist-package",
@@ -91722,7 +92082,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 14
+    "weeklyDownloads": 72
   },
   {
     "name": "rolldown-plugin-sourcemaps",
@@ -91856,7 +92216,7 @@
         "versions": "^1.0.0-rc.9"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 3
   },
   {
     "name": "rolldown-plugin-visualizer",
@@ -92245,7 +92605,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 492
+    "weeklyDownloads": 595
   },
   {
     "name": "rollup-plugin-angular-aot",
@@ -93100,7 +93460,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 15
+    "weeklyDownloads": 34
   },
   {
     "name": "rollup-plugin-bower-resolve",
@@ -93970,7 +94330,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1383
+    "weeklyDownloads": 1654
   },
   {
     "name": "rollup-plugin-chrome-extensions-hmr",
@@ -94393,7 +94753,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 6
   },
   {
     "name": "rollup-plugin-codefend",
@@ -94987,7 +95347,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 2
   },
   {
     "name": "rollup-plugin-convert-encoding",
@@ -95412,7 +95772,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 76
+    "weeklyDownloads": 64
   },
   {
     "name": "rollup-plugin-cp",
@@ -96579,7 +96939,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 8
   },
   {
     "name": "rollup-plugin-dustjs",
@@ -96638,7 +96998,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 173
+    "weeklyDownloads": 270
   },
   {
     "name": "rollup-plugin-edit",
@@ -97077,7 +97437,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 0
   },
   {
     "name": "rollup-plugin-ephemeral",
@@ -98498,7 +98858,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 0
   },
   {
     "name": "rollup-plugin-fork-ts-checker",
@@ -99280,7 +99640,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 175
+    "weeklyDownloads": 55
   },
   {
     "name": "rollup-plugin-graph",
@@ -100737,7 +101097,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 17
+    "weeklyDownloads": 16
   },
   {
     "name": "rollup-plugin-imagetools",
@@ -102538,7 +102898,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 3
   },
   {
     "name": "rollup-plugin-json-parse",
@@ -104546,7 +104906,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 4
   },
   {
     "name": "rollup-plugin-mock-spritesmith",
@@ -105929,7 +106289,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 892
+    "weeklyDownloads": 922
   },
   {
     "name": "rollup-plugin-notify",
@@ -106080,7 +106440,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 20
+    "weeklyDownloads": 24
   },
   {
     "name": "rollup-plugin-optimize-arguments",
@@ -106262,7 +106622,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3538
+    "weeklyDownloads": 2543
   },
   {
     "name": "rollup-plugin-patel",
@@ -106982,7 +107342,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 75
+    "weeklyDownloads": 77
   },
   {
     "name": "rollup-plugin-prepack-up",
@@ -107046,7 +107406,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 1
   },
   {
     "name": "rollup-plugin-preserve-css",
@@ -109395,7 +109755,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 4
   },
   {
     "name": "rollup-plugin-shebang-bin",
@@ -109913,7 +110273,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 1
   },
   {
     "name": "rollup-plugin-spawn-process",
@@ -110238,7 +110598,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 745
+    "weeklyDownloads": 755
   },
   {
     "name": "rollup-plugin-string",
@@ -111148,7 +111508,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2472
+    "weeklyDownloads": 2631
   },
   {
     "name": "rollup-plugin-svgpack",
@@ -111180,7 +111540,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "rollup-plugin-svgsprite-generator",
@@ -111722,7 +112082,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 10
+    "weeklyDownloads": 213
   },
   {
     "name": "rollup-plugin-threejs-legacy-import",
@@ -112620,7 +112980,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "rollup-plugin-ue2",
@@ -112706,7 +113066,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4280
+    "weeklyDownloads": 3244
   },
   {
     "name": "rollup-plugin-unassert",
@@ -112844,7 +113204,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3089
+    "weeklyDownloads": 1928
   },
   {
     "name": "rollup-plugin-url-import",
@@ -114756,7 +115116,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 3
   },
   {
     "name": "runtime-compiler",
@@ -114901,7 +115261,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 14
+    "weeklyDownloads": 9
   },
   {
     "name": "saltcat-astro-editorial-imagesys",
@@ -115319,7 +115679,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 5
   },
   {
     "name": "skynet-vite-plugin-svg-icons",
@@ -115418,7 +115778,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 4
   },
   {
     "name": "solid-jotlang",
@@ -116145,7 +116505,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3268
+    "weeklyDownloads": 1689
   },
   {
     "name": "storybook-vue-csf-addon",
@@ -116359,7 +116719,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 2
   },
   {
     "name": "stylex-unplugin",
@@ -117188,8 +117548,8 @@
       "repository": "https://github.com/Bigetion/tailmantic",
       "homepage": "https://github.com/Bigetion/tailmantic#readme"
     },
-    "version": "1.0.2",
-    "updatedAt": "2026-10-08T02:32:12.166Z",
+    "version": "1.0.3",
+    "updatedAt": "2026-10-15T15:30:18.890Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -117346,7 +117706,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 202
+    "weeklyDownloads": 217
   },
   {
     "name": "tailwindcss-source",
@@ -117566,7 +117926,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 0
   },
   {
     "name": "timekeeper-plugin",
@@ -117772,7 +118132,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 0
   },
   {
     "name": "transform-to-tailwindcss",
@@ -117827,7 +118187,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 101
+    "weeklyDownloads": 30
   },
   {
     "name": "transform-to-unocss",
@@ -118081,7 +118441,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 2
   },
   {
     "name": "tsr-shared-routes",
@@ -118336,7 +118696,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 0
   },
   {
     "name": "typecomposer-plugin",
@@ -120579,7 +120939,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 16
+    "weeklyDownloads": 0
   },
   {
     "name": "unplugin-class-extractor",
@@ -120718,7 +121078,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 0
   },
   {
     "name": "unplugin-code-sample",
@@ -120973,7 +121333,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 3
   },
   {
     "name": "unplugin-compression",
@@ -121031,7 +121391,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 0
   },
   {
     "name": "unplugin-conditional-definition",
@@ -121199,7 +121559,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 20
+    "weeklyDownloads": 27
   },
   {
     "name": "unplugin-create-dir",
@@ -121419,7 +121779,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 18
+    "weeklyDownloads": 57
   },
   {
     "name": "unplugin-data-uri",
@@ -121829,7 +122189,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 10
+    "weeklyDownloads": 7
   },
   {
     "name": "unplugin-devpilot",
@@ -121964,7 +122324,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 13
+    "weeklyDownloads": 3
   },
   {
     "name": "unplugin-doctor",
@@ -122503,7 +122863,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 0
   },
   {
     "name": "unplugin-essor",
@@ -122870,7 +123230,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 786
+    "weeklyDownloads": 823
   },
   {
     "name": "unplugin-fontmin",
@@ -122902,7 +123262,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 0
   },
   {
     "name": "unplugin-formkit",
@@ -122991,8 +123351,8 @@
       "repository": "https://github.com/mantou132/gem",
       "homepage": "https://github.com/mantou132/gem#readme"
     },
-    "version": "0.1.12",
-    "updatedAt": "2026-10-01T10:03:20.139Z",
+    "version": "0.1.13",
+    "updatedAt": "2026-10-15T11:27:51.630Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -123007,7 +123367,7 @@
         "versions": ">=0.0.0"
       }
     },
-    "weeklyDownloads": 206
+    "weeklyDownloads": 33
   },
   {
     "name": "unplugin-generate-component-name",
@@ -124633,7 +124993,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 4
   },
   {
     "name": "unplugin-keep-polite",
@@ -124751,8 +125111,8 @@
       "repository": "https://github.com/kubb-labs/kubb",
       "homepage": "https://kubb.dev"
     },
-    "version": "5.9.5",
-    "updatedAt": "2026-10-15T06:35:21.862Z",
+    "version": "5.10.4",
+    "updatedAt": "2026-10-15T19:24:40.639Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -125012,7 +125372,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 4
   },
   {
     "name": "unplugin-lingui-loader",
@@ -125080,7 +125440,7 @@
         "versions": "^1.0.0-0 || ^1"
       }
     },
-    "weeklyDownloads": 344
+    "weeklyDownloads": 205
   },
   {
     "name": "unplugin-lit-sass",
@@ -125317,7 +125677,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 12
+    "weeklyDownloads": 32
   },
   {
     "name": "unplugin-markdown-2-html",
@@ -125381,7 +125741,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 24
+    "weeklyDownloads": 9
   },
   {
     "name": "unplugin-md",
@@ -125472,7 +125832,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 14
+    "weeklyDownloads": 11
   },
   {
     "name": "unplugin-mock",
@@ -126687,7 +127047,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 11
+    "weeklyDownloads": 12
   },
   {
     "name": "unplugin-pick",
@@ -127258,7 +127618,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 0
   },
   {
     "name": "unplugin-quansync",
@@ -127736,7 +128096,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 1
   },
   {
     "name": "unplugin-react-vapor",
@@ -127802,7 +128162,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 0
   },
   {
     "name": "unplugin-real-private",
@@ -128242,7 +128602,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 1
   },
   {
     "name": "unplugin-routes",
@@ -128838,7 +129198,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 19
+    "weeklyDownloads": 7
   },
   {
     "name": "unplugin-sri-inject",
@@ -129617,7 +129977,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "unplugin-tailwind-prefixer",
@@ -130313,7 +130673,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 2
   },
   {
     "name": "unplugin-uni-app-vue3-data-log",
@@ -130563,7 +130923,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 22
+    "weeklyDownloads": 2
   },
   {
     "name": "unplugin-unocss-transform",
@@ -130948,7 +131308,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 4
   },
   {
     "name": "unplugin-version-injector",
@@ -131710,7 +132070,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7088
+    "weeklyDownloads": 3277
   },
   {
     "name": "unplugin-vue-jsx",
@@ -132834,8 +133194,8 @@
       "repository": "https://github.com/luxass/unplugin-yaml",
       "homepage": "https://github.com/luxass/unplugin-yaml#readme"
     },
-    "version": "4.3.0",
-    "updatedAt": "2026-09-19T03:05:55.635Z",
+    "version": "4.3.1",
+    "updatedAt": "2026-10-16T02:12:28.728Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -132914,7 +133274,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 1
   },
   {
     "name": "unplugin-zip-pack",
@@ -133356,12 +133716,12 @@
       "repository": "https://github.com/vikejs/vike",
       "homepage": "https://github.com/vikejs/vike#readme"
     },
-    "version": "0.4.267",
-    "updatedAt": "2026-09-28T15:38:39.858Z",
+    "version": "0.4.268",
+    "updatedAt": "2026-10-15T13:45:32.084Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
-        "versions": ">=6.3.0"
+        "versions": ">=7.1.0"
       },
       "rollup": {
         "type": "unknown"
@@ -133449,7 +133809,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 74
+    "weeklyDownloads": 14
   },
   {
     "name": "vike-lite-react",
@@ -134101,7 +134461,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 23
+    "weeklyDownloads": 2
   },
   {
     "name": "vite-build-monitor",
@@ -135037,7 +135397,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 23
+    "weeklyDownloads": 4
   },
   {
     "name": "vite-file-line-placeholder-plugin",
@@ -135096,7 +135456,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-font",
@@ -135501,7 +135861,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-image-react",
@@ -135922,7 +136282,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-laravel-valet-tls-plugin",
@@ -136134,7 +136494,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 58
+    "weeklyDownloads": 112
   },
   {
     "name": "vite-mdx-raw-plugin",
@@ -136489,7 +136849,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-ng-annotate",
@@ -136753,7 +137113,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-absolute-dynamic-imports",
@@ -136785,7 +137145,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 37
+    "weeklyDownloads": 26
   },
   {
     "name": "vite-plugin-add-gitinfo",
@@ -136864,7 +137224,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 2
   },
   {
     "name": "vite-plugin-addhtmltags",
@@ -137012,7 +137372,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 5
   },
   {
     "name": "vite-plugin-agent-eyes",
@@ -138076,7 +138436,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1642
+    "weeklyDownloads": 1137
   },
   {
     "name": "vite-plugin-antigravity-inspector",
@@ -138106,7 +138466,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 5
   },
   {
     "name": "vite-plugin-anyframe",
@@ -138224,7 +138584,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 33
+    "weeklyDownloads": 23
   },
   {
     "name": "vite-plugin-api-types-gen",
@@ -138603,7 +138963,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 4
   },
   {
     "name": "vite-plugin-assemblyscript",
@@ -139381,7 +139741,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 91
+    "weeklyDownloads": 17
   },
   {
     "name": "vite-plugin-auto-name",
@@ -140064,7 +140424,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 38
+    "weeklyDownloads": 25
   },
   {
     "name": "vite-plugin-barrel-subpath-imports",
@@ -140096,7 +140456,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 176
+    "weeklyDownloads": 8
   },
   {
     "name": "vite-plugin-barrels",
@@ -141159,7 +141519,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-build-reporter",
@@ -141757,7 +142117,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 6
   },
   {
     "name": "vite-plugin-bundled-entry",
@@ -142218,7 +142578,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 582
+    "weeklyDownloads": 707
   },
   {
     "name": "vite-plugin-cdn3",
@@ -142247,7 +142607,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-cesium",
@@ -142334,7 +142694,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-cesium-base",
@@ -142454,7 +142814,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 116
+    "weeklyDownloads": 308
   },
   {
     "name": "vite-plugin-cesium-jin",
@@ -142774,7 +143134,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 118
+    "weeklyDownloads": 203
   },
   {
     "name": "vite-plugin-check-scoped",
@@ -142917,7 +143277,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-checker-eslog",
@@ -142975,7 +143335,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 23
+    "weeklyDownloads": 21
   },
   {
     "name": "vite-plugin-child-process",
@@ -143807,7 +144167,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2296
+    "weeklyDownloads": 286
   },
   {
     "name": "vite-plugin-code-inspector",
@@ -144803,7 +145163,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 5
   },
   {
     "name": "vite-plugin-console-forward",
@@ -145470,7 +145830,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 18
+    "weeklyDownloads": 14
   },
   {
     "name": "vite-plugin-cos-cdnizer",
@@ -145600,7 +145960,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 4
   },
   {
     "name": "vite-plugin-critical-css",
@@ -145802,7 +146162,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 74
+    "weeklyDownloads": 66
   },
   {
     "name": "vite-plugin-css-auto-import-bob",
@@ -146128,7 +146488,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 29
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-css-sourcemap",
@@ -146826,7 +147186,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 14
+    "weeklyDownloads": 55
   },
   {
     "name": "vite-plugin-deeptwins-engine-3d",
@@ -146853,7 +147213,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-define-dts",
@@ -146889,7 +147249,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-define-env",
@@ -147054,7 +147414,7 @@
         "versions": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0"
       }
     },
-    "weeklyDownloads": 11
+    "weeklyDownloads": 2
   },
   {
     "name": "vite-plugin-dependency-watcher",
@@ -147243,7 +147603,7 @@
         "note": "Automatically triggers deploy-stack on closeBundle"
       }
     },
-    "weeklyDownloads": 10
+    "weeklyDownloads": 8
   },
   {
     "name": "vite-plugin-deploy-to-s3",
@@ -147460,7 +147820,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3870
+    "weeklyDownloads": 3768
   },
   {
     "name": "vite-plugin-dev-proxy",
@@ -147549,7 +147909,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 0
+    "weeklyDownloads": 295
   },
   {
     "name": "vite-plugin-dev-urls",
@@ -148019,7 +148379,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-dir-to-routes",
@@ -149143,7 +149503,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 13
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-dynamic-require-import",
@@ -149246,7 +149606,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 82
+    "weeklyDownloads": 9
   },
   {
     "name": "vite-plugin-easy-mock",
@@ -149400,7 +149760,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-ejs-engine",
@@ -149548,7 +149908,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 14
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-electron-obfuscator",
@@ -149677,7 +150037,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 6
   },
   {
     "name": "vite-plugin-eleventy",
@@ -150465,7 +150825,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 392
+    "weeklyDownloads": 177
   },
   {
     "name": "vite-plugin-env-safe",
@@ -151137,7 +151497,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 33
   },
   {
     "name": "vite-plugin-esm.sh",
@@ -151558,7 +151918,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 10
+    "weeklyDownloads": 2
   },
   {
     "name": "vite-plugin-extract-vendors",
@@ -151619,7 +151979,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 296
+    "weeklyDownloads": 46
   },
   {
     "name": "vite-plugin-faker",
@@ -151812,7 +152172,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 15
+    "weeklyDownloads": 4
   },
   {
     "name": "vite-plugin-fathom",
@@ -151840,7 +152200,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 433
+    "weeklyDownloads": 354
   },
   {
     "name": "vite-plugin-faust",
@@ -151974,7 +152334,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1821
+    "weeklyDownloads": 1014
   },
   {
     "name": "vite-plugin-feature-flag",
@@ -152005,7 +152365,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-fetch-dts",
@@ -152208,7 +152568,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 13
+    "weeklyDownloads": 15
   },
   {
     "name": "vite-plugin-firebase",
@@ -152426,7 +152786,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 929
+    "weeklyDownloads": 898
   },
   {
     "name": "vite-plugin-fluent",
@@ -152938,7 +153298,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 12
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-foundryvtt",
@@ -153475,7 +153835,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 659
+    "weeklyDownloads": 624
   },
   {
     "name": "vite-plugin-generate-package-json",
@@ -154117,7 +154477,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-go-template",
@@ -154231,7 +154591,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 18
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-golang-wasm-lite",
@@ -154295,7 +154655,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-google-apps-script",
@@ -154444,7 +154804,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 11
+    "weeklyDownloads": 5
   },
   {
     "name": "vite-plugin-grundlage",
@@ -154563,7 +154923,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-harmony",
@@ -155094,7 +155454,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-html-bramfoxie",
@@ -155180,7 +155540,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-html-elements",
@@ -155765,8 +156125,8 @@
       "repository": "https://github.com/paul-browne/vite-plugin-html-pages",
       "homepage": "https://github.com/paul-browne/vite-plugin-html-pages"
     },
-    "version": "2.6.3",
-    "updatedAt": "2026-10-14T09:59:50.453Z",
+    "version": "2.6.4",
+    "updatedAt": "2026-10-15T11:13:24.461Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -155953,7 +156313,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-html-resolve-alias",
@@ -156124,7 +156484,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 271
+    "weeklyDownloads": 387
   },
   {
     "name": "vite-plugin-html-transform",
@@ -156867,7 +157227,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-i18n-json-md",
@@ -157181,7 +157541,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 27
+    "weeklyDownloads": 18
   },
   {
     "name": "vite-plugin-icon-font-reducer",
@@ -157327,7 +157687,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 7
   },
   {
     "name": "vite-plugin-iconify-favicon",
@@ -157359,7 +157719,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 24
+    "weeklyDownloads": 9
   },
   {
     "name": "vite-plugin-iconify-offline",
@@ -157640,7 +158000,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 2
   },
   {
     "name": "vite-plugin-image-compress",
@@ -157763,7 +158123,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 61
+    "weeklyDownloads": 34
   },
   {
     "name": "vite-plugin-image-optimizer",
@@ -157827,7 +158187,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 4
   },
   {
     "name": "vite-plugin-image-options",
@@ -158043,7 +158403,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 3
   },
   {
     "name": "vite-plugin-image-to-webp",
@@ -158580,7 +158940,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-importmap",
@@ -158689,7 +159049,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 2
   },
   {
     "name": "vite-plugin-index-html",
@@ -158786,7 +159146,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-inferno",
@@ -159823,7 +160183,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-isomorphic-import",
@@ -159942,7 +160302,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 7
   },
   {
     "name": "vite-plugin-jso-obfuscator",
@@ -160047,7 +160407,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 3
   },
   {
     "name": "vite-plugin-json5",
@@ -160826,7 +161186,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-laravel-translations",
@@ -160898,7 +161258,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-layoutaid",
@@ -163599,7 +163959,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-minify",
@@ -163965,7 +164325,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-mitosis",
@@ -164395,7 +164755,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 67
+    "weeklyDownloads": 31
   },
   {
     "name": "vite-plugin-module-list",
@@ -164482,7 +164842,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 79
+    "weeklyDownloads": 14
   },
   {
     "name": "vite-plugin-moment-timezone",
@@ -165653,7 +166013,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 19
+    "weeklyDownloads": 53
   },
   {
     "name": "vite-plugin-next-font",
@@ -165790,7 +166150,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 445
+    "weeklyDownloads": 636
   },
   {
     "name": "vite-plugin-ngrok",
@@ -166029,7 +166389,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 309
+    "weeklyDownloads": 768
   },
   {
     "name": "vite-plugin-node-red",
@@ -166239,7 +166599,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 22
+    "weeklyDownloads": 7
   },
   {
     "name": "vite-plugin-not-found",
@@ -166342,8 +166702,8 @@
       "repository": "https://github.com/nudojs/nudo",
       "homepage": "https://github.com/nudojs/nudo/tree/main/packages/vite-plugin"
     },
-    "version": "0.4.42",
-    "updatedAt": "2026-10-15T03:57:28.035Z",
+    "version": "0.4.43",
+    "updatedAt": "2026-10-16T06:10:31.848Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -166510,7 +166870,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 823
+    "weeklyDownloads": 395
   },
   {
     "name": "vite-plugin-office-addin",
@@ -166767,7 +167127,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 3
   },
   {
     "name": "vite-plugin-online-debug",
@@ -166881,7 +167241,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1235
+    "weeklyDownloads": 498
   },
   {
     "name": "vite-plugin-open-icon",
@@ -167036,7 +167396,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 12
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-openfl",
@@ -167896,6 +168256,37 @@
     "weeklyDownloads": 20
   },
   {
+    "name": "vite-plugin-paraglide-sugar",
+    "description": "Compile ergonomic Paraglide message access into tree-shakable imports with Vite.",
+    "keywords": [
+      "i18n",
+      "inlang",
+      "paraglide",
+      "svelte",
+      "vite-plugin"
+    ],
+    "links": {
+      "npm": "https://npmx.dev/package/vite-plugin-paraglide-sugar",
+      "repository": "https://github.com/HancomAC/vite-plugin-paraglide-sugar",
+      "homepage": "https://github.com/HancomAC/vite-plugin-paraglide-sugar#readme"
+    },
+    "version": "0.1.0",
+    "updatedAt": "2026-10-15T08:20:16.916Z",
+    "compatibility": {
+      "vite": {
+        "type": "compatible",
+        "versions": "^8.0.14"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 0
+  },
+  {
     "name": "vite-plugin-parse-html",
     "description": "just parse html for your inject some script or css, more then inject some data",
     "keywords": [
@@ -168643,7 +169034,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-preload-prefetch",
@@ -168860,7 +169251,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 208
+    "weeklyDownloads": 24
   },
   {
     "name": "vite-plugin-prerender-static",
@@ -168953,7 +169344,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-preserve-static-dirs-lk",
@@ -168982,7 +169373,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-prettier-dts",
@@ -169176,7 +169567,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3531
+    "weeklyDownloads": 1893
   },
   {
     "name": "vite-plugin-property-paths-to-types",
@@ -169235,7 +169626,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-proto",
@@ -169330,7 +169721,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 34
+    "weeklyDownloads": 126
   },
   {
     "name": "vite-plugin-prototype",
@@ -169510,7 +169901,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 13
+    "weeklyDownloads": 6
   },
   {
     "name": "vite-plugin-proxy-http2",
@@ -171017,7 +171408,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-react-fiber-source",
@@ -172216,7 +172607,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 76
+    "weeklyDownloads": 15
   },
   {
     "name": "vite-plugin-redirects",
@@ -172244,7 +172635,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 13
+    "weeklyDownloads": 3
   },
   {
     "name": "vite-plugin-redux-hmr",
@@ -172583,7 +172974,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 18
+    "weeklyDownloads": 8
   },
   {
     "name": "vite-plugin-reload-on-rebuild",
@@ -173053,7 +173444,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 35
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-replace-require-variable",
@@ -173623,7 +174014,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 9
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-rnw",
@@ -174677,7 +175068,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 12
+    "weeklyDownloads": 9
   },
   {
     "name": "vite-plugin-security-scan",
@@ -175170,7 +175561,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 48
+    "weeklyDownloads": 32
   },
   {
     "name": "vite-plugin-server-sugar",
@@ -175753,7 +176144,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 99
+    "weeklyDownloads": 48
   },
   {
     "name": "vite-plugin-sharp-resize",
@@ -176212,8 +176603,8 @@
       "repository": "https://github.com/shopzend/vite-plugin-shopify-theme",
       "homepage": "https://github.com/shopzend/vite-plugin-shopify-theme#readme"
     },
-    "version": "0.1.2",
-    "updatedAt": "2026-10-05T14:19:48.379Z",
+    "version": "0.2.0",
+    "updatedAt": "2026-10-15T10:28:39.744Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -176226,7 +176617,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 378
+    "weeklyDownloads": 44
   },
   {
     "name": "vite-plugin-shopify-theme-islands",
@@ -177819,7 +178210,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1806
+    "weeklyDownloads": 1285
   },
   {
     "name": "vite-plugin-splash-screen_svelte-fix",
@@ -178429,7 +178820,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 174
+    "weeklyDownloads": 164
   },
   {
     "name": "vite-plugin-ssg-sahil",
@@ -178959,7 +179350,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-static-twig",
@@ -178991,7 +179382,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 13
+    "weeklyDownloads": 2
   },
   {
     "name": "vite-plugin-stats-html",
@@ -179654,8 +180045,8 @@
       "repository": "https://github.com/Greg-J/vite-plugin-stylewright",
       "homepage": "https://github.com/Greg-J/vite-plugin-stylewright#readme"
     },
-    "version": "0.1.0",
-    "updatedAt": "2026-07-27T21:41:43.617Z",
+    "version": "0.2.0",
+    "updatedAt": "2026-10-15T17:00:56.507Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -180287,7 +180678,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 3
   },
   {
     "name": "vite-plugin-sveltekit-telephone-dev",
@@ -180408,7 +180799,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 3
   },
   {
     "name": "vite-plugin-svg-icon-types",
@@ -181001,7 +181392,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-svg-sprite-components-preact",
@@ -181569,7 +181960,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 17
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-svgv",
@@ -182005,7 +182396,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 3
   },
   {
     "name": "vite-plugin-tailwind-grouping",
@@ -182644,7 +183035,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 174
+    "weeklyDownloads": 125
   },
   {
     "name": "vite-plugin-tencent-cos",
@@ -183442,7 +183833,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 27
+    "weeklyDownloads": 8
   },
   {
     "name": "vite-plugin-tomato",
@@ -183876,7 +184267,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 2
   },
   {
     "name": "vite-plugin-ts-nameof",
@@ -183940,7 +184331,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 40
+    "weeklyDownloads": 33
   },
   {
     "name": "vite-plugin-ts-to-zod",
@@ -184915,7 +185306,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 9
+    "weeklyDownloads": 6
   },
   {
     "name": "vite-plugin-ubox",
@@ -184944,7 +185335,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-uglifier",
@@ -185077,7 +185468,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-uni-custom-routes",
@@ -185609,7 +186000,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 3
   },
   {
     "name": "vite-plugin-unocss-watcher",
@@ -186022,7 +186413,7 @@
         "reason": "This plugin depends on Vite-specific APIs and cannot run directly in Rolldown config."
       }
     },
-    "weeklyDownloads": 47
+    "weeklyDownloads": 100
   },
   {
     "name": "vite-plugin-validate-json",
@@ -186172,7 +186563,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-vercel-adapter",
@@ -186387,7 +186778,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-version-injection",
@@ -186504,7 +186895,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4959
+    "weeklyDownloads": 3830
   },
   {
     "name": "vite-plugin-version-outdir",
@@ -186850,7 +187241,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-virtual-modules",
@@ -187164,7 +187555,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-vsharp",
@@ -187477,7 +187868,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 6
   },
   {
     "name": "vite-plugin-vue-component-override",
@@ -188392,7 +188783,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-vue-inspect",
@@ -189474,7 +189865,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 9
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-vue-twind",
@@ -190196,7 +190587,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-webasyst",
@@ -190296,7 +190687,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 6
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-plugin-webfont-dl",
@@ -190526,7 +190917,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 8
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-wegic-metadata",
@@ -190648,8 +191039,8 @@
       "repository": "https://github.com/mastermakrela/whereami",
       "homepage": "https://github.com/mastermakrela/whereami#readme"
     },
-    "version": "0.6.0",
-    "updatedAt": "2026-10-04T13:16:47.574Z",
+    "version": "0.6.1",
+    "updatedAt": "2026-10-15T14:06:28.598Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -190662,7 +191053,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 267
+    "weeklyDownloads": 160
   },
   {
     "name": "vite-plugin-white-label",
@@ -190828,8 +191219,8 @@
       "repository": "https://github.com/jkker/vite-plugin-windmill",
       "homepage": "https://github.com/jkker/vite-plugin-windmill#readme"
     },
-    "version": "1.833.0",
-    "updatedAt": "2026-10-14T08:49:16.379Z",
+    "version": "1.835.0",
+    "updatedAt": "2026-10-15T08:23:33.016Z",
     "compatibility": {
       "vite": {
         "type": "compatible",
@@ -190912,7 +191303,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 7
+    "weeklyDownloads": 2
   },
   {
     "name": "vite-plugin-worker-rpc",
@@ -190943,7 +191334,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 25
+    "weeklyDownloads": 7
   },
   {
     "name": "vite-plugin-workerd",
@@ -191131,7 +191522,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 9
+    "weeklyDownloads": 1
   },
   {
     "name": "vite-plugin-xgis-cesium",
@@ -191427,7 +191818,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 910
+    "weeklyDownloads": 658
   },
   {
     "name": "vite-plugin-zephyr",
@@ -192280,7 +192671,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-proxy-redirects-plugin",
@@ -192541,7 +192932,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 5
+    "weeklyDownloads": 0
   },
   {
     "name": "vite-react-jsx",
@@ -193171,7 +193562,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 20
+    "weeklyDownloads": 13
   },
   {
     "name": "vite-signature",
@@ -193384,7 +193775,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 35
+    "weeklyDownloads": 16
   },
   {
     "name": "vite-ssr-react",
@@ -194148,7 +194539,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 1527
+    "weeklyDownloads": 2761
   },
   {
     "name": "vite-zip-files-build",
@@ -194590,7 +194981,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 17
+    "weeklyDownloads": 6
   },
   {
     "name": "vitepress-plugin-responsive-images",
@@ -194736,7 +195127,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 4028
+    "weeklyDownloads": 3572
   },
   {
     "name": "vixt",
@@ -195199,7 +195590,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 2
+    "weeklyDownloads": 1
   },
   {
     "name": "vue-i18n-kit",
@@ -195373,7 +195764,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 15
+    "weeklyDownloads": 7
   },
   {
     "name": "vue-jsx-vapor",
@@ -195465,7 +195856,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 0
   },
   {
     "name": "vue-mcp-server",
@@ -195528,7 +195919,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 3
+    "weeklyDownloads": 1
   },
   {
     "name": "vue-plugin-remove-attributes",
@@ -195757,7 +196148,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 0
+    "weeklyDownloads": 550
   },
   {
     "name": "vue-ts-auto-props",
@@ -195908,7 +196299,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 17
+    "weeklyDownloads": 2
   },
   {
     "name": "web-test-runner-vite-plugin",
@@ -196554,7 +196945,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 57
+    "weeklyDownloads": 23
   },
   {
     "name": "ydom-core",
@@ -196786,6 +197177,38 @@
     "weeklyDownloads": 0
   },
   {
+    "name": "zero-cls-font",
+    "description": "Zero-runtime automatic font fallback metric calculator to eliminate Cumulative Layout Shift (CLS).",
+    "keywords": [
+      "cls",
+      "font",
+      "web-vitals",
+      "font-metrics",
+      "vite-plugin",
+      "performance",
+      "css"
+    ],
+    "links": {
+      "npm": "https://npmx.dev/package/zero-cls-font",
+      "repository": "https://github.com/ChamikaSathsara/zero-cls-font",
+      "homepage": "https://github.com/ChamikaSathsara/zero-cls-font#readme"
+    },
+    "version": "1.0.0",
+    "updatedAt": "2026-10-15T20:17:21.274Z",
+    "compatibility": {
+      "vite": {
+        "type": "unknown"
+      },
+      "rollup": {
+        "type": "unknown"
+      },
+      "rolldown": {
+        "type": "unknown"
+      }
+    },
+    "weeklyDownloads": 0
+  },
+  {
     "name": "zintljs",
     "description": "Compile-time internationalization for Vite — no keys, no wrappers, and only the translations each screen actually needs.",
     "keywords": [
@@ -196870,7 +197293,7 @@
         "type": "unknown"
       }
     },
-    "weeklyDownloads": 41
+    "weeklyDownloads": 23
   },
   {
     "name": "zoer-helper",
