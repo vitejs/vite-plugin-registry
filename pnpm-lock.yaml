@@ -209,8 +209,8 @@ importers:
         specifier: ^7.0.2004
         version: 7.0.2004
       p-queue:
-        specifier: ^9.3.4
-        version: 9.3.4
+        specifier: ^10.0.0
+        version: 10.0.0
       semver:
         specifier: ^7.8.5
         version: 7.8.5
@@ -1715,9 +1715,6 @@ packages:
   estree-walker@2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
 
-  eventemitter3@5.0.4:
-    resolution: {integrity: sha512-mlsTRyGaPBjPedk6Bvw+aqbsXDtoAyAzm5MO7JgU+yVRyMQ5O8bD4Kcci7BS85f93veegeCPkL8R4GLClnjLFw==}
-
   exsolve@1.0.8:
     resolution: {integrity: sha512-LmDxfWXwcTArk8fUEnOfSZpHOJ6zOMUJKOtFLFqJLoKJetuQG874Uc7/Kki7zFLzYybmZhp1M7+98pfMqeX8yA==}
 
@@ -2012,13 +2009,9 @@ packages:
       vite-plus:
         optional: true
 
-  p-queue@9.3.4:
-    resolution: {integrity: sha512-bpTeG3CuPiOgPcDqn51QUsRYshkiKiaG+hP49tCGI0+nT92h7rqD4LPKZzP8kwab/OniQf+ntA4ta6yCp1eA0Q==}
-    engines: {node: '>=20'}
-
-  p-timeout@7.0.1:
-    resolution: {integrity: sha512-AxTM2wDGORHGEkPCt8yqxOTMgpfbEHqF51f/5fJCmwFC3C/zNcGT63SymH2ttOAaiIws2zVg4+izQCjrakcwHg==}
-    engines: {node: '>=20'}
+  p-queue@10.0.0:
+    resolution: {integrity: sha512-P2wrCri3bhGLPo3kX7qYVXbo/5GvaVATU0DpO24CbeT53Y4z35t8JUWku04ERpXHUYB5rPMi3TkWE3fmJgx5rA==}
+    engines: {node: '>=22'}
 
   package-manager-detector@1.6.0:
     resolution: {integrity: sha512-61A5ThoTiDG/C8s8UMZwSorAGwMJ0ERVGj2OjoW5pAalsNOg15+iQiPzrLJ4jhZ1HJzmC2PIHT2oEiH3R5fzNA==}
@@ -3464,8 +3457,6 @@ snapshots:
 
   estree-walker@2.0.2: {}
 
-  eventemitter3@5.0.4: {}
-
   exsolve@1.0.8: {}
 
   fdir@6.5.0(picomatch@4.0.7):
@@ -3747,12 +3738,7 @@ snapshots:
       '@oxlint/binding-win32-x64-msvc': 1.87.0
       oxlint-tsgolint: 7.0.2004
 
-  p-queue@9.3.4:
-    dependencies:
-      eventemitter3: 5.0.4
-      p-timeout: 7.0.1
-
-  p-timeout@7.0.1: {}
+  p-queue@10.0.0: {}
 
   package-manager-detector@1.6.0: {}
 
