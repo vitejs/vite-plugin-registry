@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 import { useUrlSearchParams } from '@vueuse/core'
-import * as semver from 'semver'
+import { satisfies } from 'verkit'
 import { data, type RegistryPlugin, type ToolCompatibility } from '../../../plugins.data'
 import PluginCard from './PluginCard.vue'
 
@@ -101,7 +101,7 @@ function isCompatibleWith(compat: ToolCompatibility, version: string): boolean {
   const normalizedVersion = version.includes('.') ? version : `${version}.0.0`
 
   try {
-    return semver.satisfies(normalizedVersion, range)
+    return satisfies(normalizedVersion, range)
   } catch {
     // If semver parsing fails, fall back to simple string matching
     return range.includes(version)
