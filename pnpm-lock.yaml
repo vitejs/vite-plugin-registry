@@ -181,9 +181,6 @@ importers:
       '@types/node':
         specifier: ^24.19.2
         version: 24.19.2
-      '@types/semver':
-        specifier: ^7.8.0
-        version: 7.8.0
       '@valibot/to-json-schema':
         specifier: ^1.8.0
         version: 1.8.0(valibot@1.5.0(typescript@7.0.2))
@@ -211,9 +208,6 @@ importers:
       p-queue:
         specifier: ^10.0.0
         version: 10.0.0
-      semver:
-        specifier: ^7.8.6
-        version: 7.8.6
       typescript:
         specifier: ^7.0.2
         version: 7.0.2
@@ -223,6 +217,9 @@ importers:
       valibot:
         specifier: ^1.5.0
         version: 1.5.0(typescript@7.0.2)
+      verkit:
+        specifier: ^0.5.0
+        version: 0.5.0
       vitepress:
         specifier: 2.0.0-alpha.21
         version: 2.0.0-alpha.21(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.6.1)(postcss@8.5.32)(typescript@7.0.2)
@@ -1367,9 +1364,6 @@ packages:
   '@types/node@24.19.2':
     resolution: {integrity: sha512-93d49wCWJkCyN87MxLpNN6KXPCwFw7bVUg79mGUV1OS40JGWwVCr8n61DXCSqz7CV6/VfPkb7xec7uP2M+QHWQ==}
 
-  '@types/semver@7.8.0':
-    resolution: {integrity: sha512-1mAINjtQCXXeLkJ9ehXkwOcBpqtLxiVtKhpUf83DdRNdQKV0iXZpaHYqRr7nj+wvxuJzoAmAwXI+sCNMv1CzLQ==}
-
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
 
@@ -2291,6 +2285,10 @@ packages:
       typescript:
         optional: true
 
+  verkit@0.5.0:
+    resolution: {integrity: sha512-u4J1hr6Y+C/hit34GwL3eIcUf3wngT8TlYUjK7tk0jxydKLAq3sYvifjdTDA6U3KCKRcQCQDGf/srjxfZF3l7g==}
+    engines: {node: '>=18.12.0'}
+
   vfile-message@4.0.3:
     resolution: {integrity: sha512-QTHzsGd1EhbZs4AsQ20JX1rC3cOlt/IWJruk893DfLRr57lcnOeMaWG4K0JrRta4mIJZKth2Au3mM3u03/JWKw==}
 
@@ -3185,8 +3183,6 @@ snapshots:
     dependencies:
       undici-types: 7.24.6
 
-  '@types/semver@7.8.0': {}
-
   '@types/unist@3.0.3': {}
 
   '@types/web-bluetooth@0.0.21': {}
@@ -4052,6 +4048,8 @@ snapshots:
   valibot@1.5.0(typescript@7.0.2):
     optionalDependencies:
       typescript: 7.0.2
+
+  verkit@0.5.0: {}
 
   vfile-message@4.0.3:
     dependencies:
